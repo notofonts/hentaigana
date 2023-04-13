@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Noto My Font</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"
+		></script>
+		<style>
+			.container {
+				background-color: rgba(255, 255, 255, 0.25);
+			}
+			.li-0 {
+				display: inline-block;
+				vertical-align: top;
+				margin: 5px;
+				padding: 10px;
+				background-color: rgba(255, 255, 255, 0.75);
+			}
+			@font-face {
+				font-family: "Noto";
+				src: url(fonts/NotoSerifTest/unhinted/ttf/NotoSerifTest-Regular.ttf);
+			}
+			.noto {
+				font-family: "Noto";
+			}
+			.relative {
+				position: relative;
+			}
+			.heading {
+				position: absolute;
+				overflow: hidden;
+				height: 100%;
+				opacity: 0.1;
+				z-index: -1;
+			}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<span class="navbar-text">
+					As at
+					<a href="https://github.com/notofonts/noto-project-template/commit/e7945ed
+"><code>e7945ed
+</code></a>
+				</span>
+				<div class="mx-auto order-0">
+					<a class="navbar-brand" href="#"> Noto My Font </a>
+				</div>
+			</div>
+		</nav>
+		<div class="relative">
+			<h1 class="display-3 heading noto"> </h1>
+
+			<div class="container p-5">
+				<h3>Fonts (HEAD build)</h3>
+
+				
+				<h4>Noto Serif Test</h4>
+				<div class="row align-items-start"><ul>
+<li class="li-0">googlefonts<ul>
+<li class="li-1">ttf<ul>
+<li><a href="fonts/NotoSerifTest/googlefonts/ttf/NotoSerifTest-Regular.ttf"> NotoSerifTest-Regular.ttf</a></li>
+<li><a href="fonts/NotoSerifTest/googlefonts/ttf/NotoSerifTest-Bold.ttf"> NotoSerifTest-Bold.ttf</a></li>
+ </ul>
+<li class="li-1">variable-ttf<ul>
+<li><a href="fonts/NotoSerifTest/googlefonts/variable-ttf/NotoSerifTest[wght].ttf"> NotoSerifTest[wght].ttf</a></li>
+ </ul>
+ </ul>
+<li class="li-0">unhinted<ul>
+<li class="li-1">ttf<ul>
+<li><a href="fonts/NotoSerifTest/unhinted/ttf/NotoSerifTest-Regular.ttf"> NotoSerifTest-Regular.ttf</a></li>
+<li><a href="fonts/NotoSerifTest/unhinted/ttf/NotoSerifTest-Bold.ttf"> NotoSerifTest-Bold.ttf</a></li>
+ </ul>
+<li class="li-1">slim-variable-ttf<ul>
+<li><a href="fonts/NotoSerifTest/unhinted/slim-variable-ttf/NotoSerifTest[wght].ttf"> NotoSerifTest[wght].ttf</a></li>
+ </ul>
+<li class="li-1">variable-ttf<ul>
+<li><a href="fonts/NotoSerifTest/unhinted/variable-ttf/NotoSerifTest[wght].ttf"> NotoSerifTest[wght].ttf</a></li>
+ </ul>
+ </ul>
+<li class="li-0">hinted<ul>
+<li class="li-1">ttf<ul>
+<li><a href="fonts/NotoSerifTest/hinted/ttf/NotoSerifTest-Regular.ttf"> NotoSerifTest-Regular.ttf</a></li>
+<li><a href="fonts/NotoSerifTest/hinted/ttf/NotoSerifTest-Bold.ttf"> NotoSerifTest-Bold.ttf</a></li>
+ </ul>
+ </ul>
+ </ul></div>
+
+				
+				<h4>Noto Sans Test</h4>
+				<div class="row align-items-start"><ul>
+<li class="li-0">googlefonts<ul>
+<li class="li-1">ttf<ul>
+<li><a href="fonts/NotoSansTest/googlefonts/ttf/NotoSansTest-Regular.ttf"> NotoSansTest-Regular.ttf</a></li>
+ </ul>
+ </ul>
+<li class="li-0">unhinted<ul>
+<li class="li-1">ttf<ul>
+<li><a href="fonts/NotoSansTest/unhinted/ttf/NotoSansTest-Regular.ttf"> NotoSansTest-Regular.ttf</a></li>
+ </ul>
+ </ul>
+<li class="li-0">hinted<ul>
+<li class="li-1">ttf<ul>
+<li><a href="fonts/NotoSansTest/hinted/ttf/NotoSansTest-Regular.ttf"> NotoSansTest-Regular.ttf</a></li>
+ </ul>
+ </ul>
+ </ul></div>
+
+				
+				<h3>Tests</h3>
+
+				<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fnoto-project-template%2Fgh-pages%2Fbadges%2Foverall.json" />
+				<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fnoto-project-template%2Fgh-pages%2Fbadges%2FGoogleFonts.json" />
+				<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fnoto-project-template%2Fgh-pages%2Fbadges%2FNotoFonts.json" />
+				<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fnoto-project-template%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json" />
+				<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fnoto-project-template%2Fgh-pages%2Fbadges%2FShapingChecks.json" />
+				<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fnoto-project-template%2Fgh-pages%2Fbadges%2FUniversal.json" />
+
+				
+				<h4>Noto Serif Test</h4>
+
+				<ul>
+										<li>
+						<a href="fontbakery/googlefonts-NotoSerifTest-report.html">FontBakery Report (Google Fonts)</a>
+					</li>
+									</ul>
+
+				<ul>
+									</ul>
+				
+				<h4>Noto Sans Test</h4>
+
+				<ul>
+										<li>
+						<a href="fontbakery/googlefonts-NotoSansTest-report.html">FontBakery Report (Google Fonts)</a>
+					</li>
+									</ul>
+
+				<ul>
+									</ul>
+				
+				<h3>Proof sheets</h3>
+				<ul>
+					<li>
+						<a href="proof/glyphs.html">All glyphs</a>
+					</li>
+					<li>
+						<a href="proof/text.html">Sample text</a>
+					</li>
+					<li>
+						<a href="proof/waterfall.html">Waterfall test</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
