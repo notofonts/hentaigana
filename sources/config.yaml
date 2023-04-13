@@ -1,4 +1,6 @@
 googleFonts: true
+category: 
+- SERIF
 sources:
-- NotoSansTest.glyphs
-familyName: Noto Sans Test
+- NotoSerifHentaigana.glyphs
+familyName: Noto Serif Hentaigana
