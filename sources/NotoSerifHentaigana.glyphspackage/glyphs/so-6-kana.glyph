@@ -1,0 +1,26 @@
+{
+category = Letter;
+glyphname = "so-6-kana";
+layers = (
+{
+backgroundImage = {
+imagePath = _sketch/u1B05C.png;
+locked = 1;
+pos = (0,-120);
+};
+layerId = m01;
+width = 1000;
+},
+{
+layerId = "027B829E-3619-44FF-8C68-78647B0AD671";
+width = 1000;
+},
+{
+layerId = "22BF860B-E605-42C1-AA52-30D9AB94E7CE";
+width = 1000;
+}
+);
+production = u1B05C;
+script = hentaigana;
+unicode = 110684;
+}

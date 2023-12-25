@@ -1,0 +1,544 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = glyphOrder;
+value = (
+u1b001,
+u1b002,
+u1b003,
+u1b004,
+u1b005,
+u1b006,
+u1b007,
+u1b008,
+u1b009,
+u1b00a,
+u1b00b,
+u1b00c,
+u1b00d,
+u1b00e,
+u1b00f,
+u1b010,
+u1b011,
+u1b012,
+u1b013,
+u1b014,
+u1b015,
+u1b016,
+u1b017,
+u1b018,
+u1b019,
+u1b01a,
+u1b01b,
+u1b01c,
+u1b01d,
+u1b01e,
+u1b01f,
+u1b020,
+u1b021,
+u1b022,
+u1b023,
+u1b024,
+u1b025,
+u1b026,
+u1b027,
+u1b028,
+u1b029,
+u1b02a,
+u1b02b,
+u1b02c,
+u1b02d,
+u1b02e,
+u1b02f,
+u1b030,
+u1b031,
+u1b032,
+u1b033,
+u1b034,
+u1b035,
+u1b036,
+u1b037,
+u1b038,
+u1b039,
+u1b03a,
+u1b03b,
+u1b03c,
+u1b03d,
+u1b03e,
+u1b03f,
+u1b040,
+u1b041,
+u1b042,
+u1b043,
+u1b044,
+u1b045,
+u1b046,
+u1b047,
+u1b048,
+u1b049,
+u1b04a,
+u1b04b,
+u1b04c,
+u1b04d,
+u1b04e,
+u1b04f,
+u1b050,
+u1b051,
+u1b052,
+u1b053,
+u1b054,
+u1b055,
+u1b056,
+u1b057,
+u1b058,
+u1b059,
+u1b05a,
+u1b05b,
+u1b05c,
+u1b05d,
+u1b05e,
+u1b05f,
+u1b060,
+u1b061,
+u1b062,
+u1b063,
+u1b064,
+u1b065,
+u1b066,
+u1b067,
+u1b068,
+u1b069,
+u1b06a,
+u1b06b,
+u1b06c,
+u1b06d,
+u1b06e,
+u1b06f,
+u1b070,
+u1b071,
+u1b072,
+u1b073,
+u1b074,
+u1b075,
+u1b076,
+u1b077,
+u1b078,
+u1b079,
+u1b07a,
+u1b07b,
+u1b07c,
+u1b07d,
+u1b07e,
+u1b07f,
+u1b080,
+u1b081,
+u1b082,
+u1b083,
+u1b084,
+u1b085,
+u1b086,
+u1b087,
+u1b088,
+u1b089,
+u1b08a,
+u1b08b,
+u1b08c,
+u1b08d,
+u1b08e,
+u1b08f,
+u1b090,
+u1b091,
+u1b092,
+u1b093,
+u1b094,
+u1b095,
+u1b096,
+u1b097,
+u1b098,
+u1b099,
+u1b09a,
+u1b09b,
+u1b09c,
+u1b09d,
+u1b09e,
+u1b09f,
+u1b0a0,
+u1b0a1,
+u1b0a2,
+u1b0a3,
+u1b0a4,
+u1b0a5,
+u1b0a6,
+u1b0a7,
+u1b0a8,
+u1b0a9,
+u1b0aa,
+u1b0ab,
+u1b0ac,
+u1b0ad,
+u1b0ae,
+u1b0af,
+u1b0b0,
+u1b0b1,
+u1b0b2,
+u1b0b3,
+u1b0b4,
+u1b0b5,
+u1b0b6,
+u1b0b7,
+u1b0b8,
+u1b0b9,
+u1b0ba,
+u1b0bb,
+u1b0bc,
+u1b0bd,
+u1b0be,
+u1b0bf,
+u1b0c0,
+u1b0c1,
+u1b0c2,
+u1b0c3,
+u1b0c4,
+u1b0c5,
+u1b0c6,
+u1b0c7,
+u1b0c8,
+u1b0c9,
+u1b0ca,
+u1b0cb,
+u1b0cc,
+u1b0cd,
+u1b0ce,
+u1b0cf,
+u1b0d0,
+u1b0d1,
+u1b0d2,
+u1b0d3,
+u1b0d4,
+u1b0d5,
+u1b0d6,
+u1b0d7,
+u1b0d8,
+u1b0d9,
+u1b0da,
+u1b0db,
+u1b0dc,
+u1b0dd,
+u1b0de,
+u1b0df,
+u1b0e0,
+u1b0e1,
+u1b0e2,
+u1b0e3,
+u1b0e4,
+u1b0e5,
+u1b0e6,
+u1b0e7,
+u1b0e8,
+u1b0e9,
+u1b0ea,
+u1b0eb,
+u1b0ec,
+u1b0ed,
+u1b0ee,
+u1b0ef,
+u1b0f0,
+u1b0f1,
+u1b0f2,
+u1b0f3,
+u1b0f4,
+u1b0f5,
+u1b0f6,
+u1b0f7,
+u1b0f8,
+u1b0f9,
+u1b0fa,
+u1b0fb,
+u1b0fc,
+u1b0fd,
+u1b0fe,
+u1b0ff,
+u1b100,
+u1b101,
+u1b102,
+u1b103,
+u1b104,
+u1b105,
+u1b106,
+u1b107,
+u1b108,
+u1b109,
+u1b10a,
+u1b10b,
+u1b10c,
+u1b10d,
+u1b10e,
+u1b10f,
+u1b110,
+u1b111,
+u1b112,
+u1b113,
+u1b114,
+u1b115,
+u1b116,
+u1b117,
+u1b118,
+u1b119,
+u1b11a,
+u1b11b,
+u1b11c,
+u1b11d,
+u1b11e,
+u1b11f,
+u1b120,
+u1b121,
+u1b122
+);
+}
+);
+date = "2022-04-03 17:04:08 +0000";
+familyName = "Noto Serif Hentaigana";
+fontMaster = (
+{
+customParameters = (
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = "Master Icon Glyph Name";
+value = "a-3-kana";
+},
+{
+name = "CJK Guide";
+value = "83";
+},
+{
+name = NPDesignArea;
+value = "90,90,90,90";
+},
+{
+name = NPDesignAreaRGBA;
+value = "0.0,0.0,0.0,0.4";
+}
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 880;
+},
+{
+over = 16;
+pos = 880;
+},
+{
+over = 16;
+pos = 880;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -120;
+},
+{
+over = -16;
+}
+);
+name = EL;
+},
+{
+customParameters = (
+{
+name = "CJK Guide";
+value = "85";
+},
+{
+name = NPDesignArea;
+value = "90,90,90,90";
+},
+{
+name = NPDesignAreaRGBA;
+value = "0.0,0.0,0.0,0.4";
+},
+{
+name = "Master Icon Glyph Name";
+value = "a-3-kana";
+}
+);
+id = "22BF860B-E605-42C1-AA52-30D9AB94E7CE";
+metricValues = (
+{
+over = 16;
+pos = 880;
+},
+{
+over = 16;
+pos = 880;
+},
+{
+over = 16;
+pos = 880;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -120;
+},
+{
+}
+);
+name = Medium;
+},
+{
+customParameters = (
+{
+name = "CJK Guide";
+value = "87";
+},
+{
+name = NPDesignArea;
+value = "65,65,65,65";
+},
+{
+name = NPDesignAreaRGBA;
+value = "0.0,0.0,0.0,0.4";
+},
+{
+name = "Master Icon Glyph Name";
+value = "a-3-kana";
+}
+);
+id = "027B829E-3619-44FF-8C68-78647B0AD671";
+metricValues = (
+{
+over = 16;
+pos = 880;
+},
+{
+over = 16;
+pos = 880;
+},
+{
+over = 16;
+pos = 880;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -120;
+},
+{
+}
+);
+name = Black;
+}
+);
+instances = (
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2023 The Noto Project Authors (https://github.com/notofonts/hentaigana)";
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = trademarks;
+values = (
+{
+language = dflt;
+value = "Noto is a trademark of Google Inc.";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://www.nipponia.in";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = nipponia;
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Kazuhiro Yamada";
+}
+);
+},
+{
+key = vendorID;
+value = GOOG;
+}
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

@@ -1,0 +1,21 @@
+{
+category = Letter;
+glyphname = "ka-6-kana";
+layers = (
+{
+layerId = m01;
+width = 1000;
+},
+{
+layerId = "027B829E-3619-44FF-8C68-78647B0AD671";
+width = 1000;
+},
+{
+layerId = "22BF860B-E605-42C1-AA52-30D9AB94E7CE";
+width = 1000;
+}
+);
+production = u1B01C;
+script = hentaigana;
+unicode = 110620;
+}
