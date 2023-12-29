@@ -359,6 +359,11 @@ over = -16;
 }
 );
 name = EL;
+userData = {
+GSRoughenHorizontal = 20;
+GSRoughenSegmentLength = 10;
+GSRoughenVertical = 20;
+};
 },
 {
 customParameters = (
