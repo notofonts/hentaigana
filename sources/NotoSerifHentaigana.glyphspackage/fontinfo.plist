@@ -363,6 +363,10 @@ userData = {
 GSRoughenHorizontal = 20;
 GSRoughenSegmentLength = 10;
 GSRoughenVertical = 20;
+NP = {
+NPMargin = {
+};
+};
 };
 },
 {
@@ -409,6 +413,12 @@ pos = -120;
 }
 );
 name = Medium;
+userData = {
+NP = {
+NPMargin = {
+};
+};
+};
 },
 {
 customParameters = (
@@ -454,6 +464,12 @@ pos = -120;
 }
 );
 name = Black;
+userData = {
+NP = {
+NPMargin = {
+};
+};
+};
 }
 );
 instances = (
