@@ -1,6 +1,12 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
 customParameters = (
 {
 name = "Use Typo Metrics";
@@ -311,6 +317,9 @@ date = "2022-04-03 17:04:08 +0000";
 familyName = "Noto Serif Hentaigana";
 fontMaster = (
 {
+axesValues = (
+100
+);
 customParameters = (
 {
 name = typoLineGap;
@@ -319,10 +328,6 @@ value = 0;
 {
 name = "Master Icon Glyph Name";
 value = "a-3-kana";
-},
-{
-name = "CJK Guide";
-value = "83";
 },
 {
 name = NPDesignArea;
@@ -365,24 +370,31 @@ GSRoughenSegmentLength = 10;
 GSRoughenVertical = 20;
 NP = {
 NPMargin = {
+"7d3ac89a-6e71-4996-886d-0db4e260ad7f" = {
+margin = {
+B = 90;
+L = 90;
+R = 90;
+T = 90;
+};
+rgba = (
+0,
+0.5,
+1,
+1
+);
+title = Hentaigana;
 };
 };
 };
+};
+visible = 1;
 },
 {
+axesValues = (
+400
+);
 customParameters = (
-{
-name = "CJK Guide";
-value = "85";
-},
-{
-name = NPDesignArea;
-value = "90,90,90,90";
-},
-{
-name = NPDesignAreaRGBA;
-value = "0.0,0.0,0.0,0.4";
-},
 {
 name = "Master Icon Glyph Name";
 value = "a-3-kana";
@@ -416,27 +428,37 @@ name = Medium;
 userData = {
 NP = {
 NPMargin = {
+"89b78236-da7a-4d3b-a5e1-278384908e63" = {
+margin = {
+B = 70;
+L = 70;
+R = 70;
+T = 70;
+};
+rgba = (
+0,
+0.77322,
+1,
+1
+);
+title = Hentaigana;
+};
 };
 };
 };
 },
 {
+axesValues = (
+900
+);
 customParameters = (
-{
-name = "CJK Guide";
-value = "87";
-},
-{
-name = NPDesignArea;
-value = "65,65,65,65";
-},
-{
-name = NPDesignAreaRGBA;
-value = "0.0,0.0,0.0,0.4";
-},
 {
 name = "Master Icon Glyph Name";
 value = "a-3-kana";
+},
+{
+name = "CJK Grid";
+value = "8";
 }
 );
 id = "027B829E-3619-44FF-8C68-78647B0AD671";
@@ -467,6 +489,21 @@ name = Black;
 userData = {
 NP = {
 NPMargin = {
+"1aeb3398-b7b0-412c-b3b4-4b4a6eacb13d" = {
+margin = {
+B = 60;
+L = 60;
+R = 60;
+T = 60;
+};
+rgba = (
+0,
+0.77322,
+1,
+1
+);
+title = Hentaigana;
+};
 };
 };
 };
@@ -474,8 +511,12 @@ NPMargin = {
 );
 instances = (
 {
+axesValues = (
+0
+);
 instanceInterpolations = {
-m01 = 1;
+"027B829E-3619-44FF-8C68-78647B0AD671" = -0.125;
+m01 = 1.125;
 };
 name = Regular;
 }
@@ -560,6 +601,14 @@ value = GOOG;
 }
 );
 unitsPerEm = 1000;
+userData = {
+NP = {
+links = {
+VSComponents = "<null>";
+VSSettings = "<null>";
+};
+};
+};
 versionMajor = 1;
 versionMinor = 0;
 }
