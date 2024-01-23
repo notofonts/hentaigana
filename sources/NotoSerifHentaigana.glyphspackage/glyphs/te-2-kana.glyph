@@ -23,10 +23,31 @@ width = 1000;
 },
 {
 layerId = "027B829E-3619-44FF-8C68-78647B0AD671";
+shapes = (
+{
+alignment = -1;
+pos = (0,10);
+ref = _ninben_001;
+},
+{
+ref = _ou.001;
+}
+);
 width = 1000;
 },
 {
 layerId = "22BF860B-E605-42C1-AA52-30D9AB94E7CE";
+shapes = (
+{
+alignment = -1;
+pos = (0,10);
+ref = _ninben_001;
+},
+{
+alignment = -1;
+ref = _ou.001;
+}
+);
 width = 1000;
 }
 );
