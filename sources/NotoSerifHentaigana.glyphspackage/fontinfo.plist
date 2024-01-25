@@ -1,5 +1,5 @@
 {
-.appVersion = "3192";
+.appVersion = "3151";
 .formatVersion = 3;
 axes = (
 {
@@ -513,13 +513,50 @@ visible = 1;
 instances = (
 {
 axesValues = (
-0
+100
 );
 instanceInterpolations = {
-"027B829E-3619-44FF-8C68-78647B0AD671" = -0.125;
-m01 = 1.125;
+m01 = 1;
+};
+name = EL;
+},
+{
+axesValues = (
+300
+);
+instanceInterpolations = {
+"22BF860B-E605-42C1-AA52-30D9AB94E7CE" = 0.66667;
+m01 = 0.33333;
 };
 name = Regular;
+},
+{
+axesValues = (
+400
+);
+instanceInterpolations = {
+"22BF860B-E605-42C1-AA52-30D9AB94E7CE" = 1;
+};
+name = Medium;
+},
+{
+axesValues = (
+600
+);
+instanceInterpolations = {
+"027B829E-3619-44FF-8C68-78647B0AD671" = 0.4;
+"22BF860B-E605-42C1-AA52-30D9AB94E7CE" = 0.6;
+};
+name = Bold;
+},
+{
+axesValues = (
+900
+);
+instanceInterpolations = {
+"027B829E-3619-44FF-8C68-78647B0AD671" = 1;
+};
+name = Black;
 }
 );
 metrics = (
