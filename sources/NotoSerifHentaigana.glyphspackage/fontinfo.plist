@@ -311,6 +311,10 @@ u1b120,
 u1b121,
 u1b122
 );
+},
+{
+name = ROS;
+value = "Adobe-Identity-0";
 }
 );
 date = "2022-04-03 17:04:08 +0000";
@@ -518,7 +522,37 @@ axesValues = (
 instanceInterpolations = {
 m01 = 1;
 };
-name = EL;
+name = ExtraLight;
+properties = (
+{
+key = postscriptFontName;
+value = "NotoSerifHentaigana-ExtraLight";
+},
+{
+key = postscriptFullName;
+value = "Noto Serif Hentaigana ExtraLight";
+}
+);
+},
+{
+axesValues = (
+200
+);
+instanceInterpolations = {
+"22BF860B-E605-42C1-AA52-30D9AB94E7CE" = 0.33333;
+m01 = 0.66667;
+};
+name = Light;
+properties = (
+{
+key = postscriptFontName;
+value = "NotoSerifHentaigana-Light";
+},
+{
+key = postscriptFullName;
+value = "Noto Serif Hentaigana Light";
+}
+);
 },
 {
 axesValues = (
@@ -529,6 +563,16 @@ instanceInterpolations = {
 m01 = 0.33333;
 };
 name = Regular;
+properties = (
+{
+key = postscriptFontName;
+value = "NotoSerifHentaigana-Regular";
+},
+{
+key = postscriptFullName;
+value = "Noto Serif Hentaigana Regular";
+}
+);
 },
 {
 axesValues = (
@@ -538,16 +582,56 @@ instanceInterpolations = {
 "22BF860B-E605-42C1-AA52-30D9AB94E7CE" = 1;
 };
 name = Medium;
+properties = (
+{
+key = postscriptFontName;
+value = "NotoSerifHentaigana-Medium";
+},
+{
+key = postscriptFullName;
+value = "Noto Serif Hentaigana Medium";
+}
+);
 },
 {
 axesValues = (
-600
+500
 );
 instanceInterpolations = {
-"027B829E-3619-44FF-8C68-78647B0AD671" = 0.4;
-"22BF860B-E605-42C1-AA52-30D9AB94E7CE" = 0.6;
+"027B829E-3619-44FF-8C68-78647B0AD671" = 0.2;
+"22BF860B-E605-42C1-AA52-30D9AB94E7CE" = 0.8;
+};
+name = SemiBold;
+properties = (
+{
+key = postscriptFullName;
+value = "Noto Serif Hentaigana SemiBold";
+},
+{
+key = postscriptFontName;
+value = "NotoSerifHentaigana-SemiBold";
+}
+);
+},
+{
+axesValues = (
+700
+);
+instanceInterpolations = {
+"027B829E-3619-44FF-8C68-78647B0AD671" = 0.6;
+"22BF860B-E605-42C1-AA52-30D9AB94E7CE" = 0.4;
 };
 name = Bold;
+properties = (
+{
+key = postscriptFontName;
+value = "NotoSerifHentaigana-Bold";
+},
+{
+key = postscriptFullName;
+value = "Noto Serif Hentaigana Bold";
+}
+);
 },
 {
 axesValues = (
@@ -557,6 +641,16 @@ instanceInterpolations = {
 "027B829E-3619-44FF-8C68-78647B0AD671" = 1;
 };
 name = Black;
+properties = (
+{
+key = postscriptFontName;
+value = "NotoSerifHentaigana-Black";
+},
+{
+key = postscriptFullName;
+value = "Noto Serif Hentaigana Black";
+}
+);
 }
 );
 metrics = (
