@@ -533,6 +533,7 @@ key = postscriptFullName;
 value = "Noto Serif Hentaigana ExtraLight";
 }
 );
+weightClass = 200;
 },
 {
 axesValues = (
@@ -553,6 +554,7 @@ key = postscriptFullName;
 value = "Noto Serif Hentaigana Light";
 }
 );
+weightClass = 300;
 },
 {
 axesValues = (
@@ -592,6 +594,7 @@ key = postscriptFullName;
 value = "Noto Serif Hentaigana Medium";
 }
 );
+weightClass = 500;
 },
 {
 axesValues = (
@@ -604,14 +607,15 @@ instanceInterpolations = {
 name = SemiBold;
 properties = (
 {
-key = postscriptFullName;
-value = "Noto Serif Hentaigana SemiBold";
-},
-{
 key = postscriptFontName;
 value = "NotoSerifHentaigana-SemiBold";
+},
+{
+key = postscriptFullName;
+value = "Noto Serif Hentaigana SemiBold";
 }
 );
+weightClass = 600;
 },
 {
 axesValues = (
@@ -632,6 +636,7 @@ key = postscriptFullName;
 value = "Noto Serif Hentaigana Bold";
 }
 );
+weightClass = 700;
 },
 {
 axesValues = (
@@ -651,6 +656,7 @@ key = postscriptFullName;
 value = "Noto Serif Hentaigana Black";
 }
 );
+weightClass = 900;
 }
 );
 metrics = (
