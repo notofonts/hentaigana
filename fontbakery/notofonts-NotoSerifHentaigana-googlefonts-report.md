@@ -1,12 +1,12 @@
 ## FontBakery report
 
-fontbakery version: 0.10.8
+fontbakery version: 0.10.9
 
 <details><summary><b>[1] Experimental checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** No GF glyphset was found to be supported >80%, so language shaping support couldn't get checked. [code: no-glyphset-supported]
-</div></details><br></div></details><details><summary><b>[9] NotoSerifHentaigana-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerifHentaigana[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with KeyError: 'uni0E70'
@@ -972,7 +972,7 @@ fontbakery version: 0.10.8
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
 
 
-* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Serif Hentaigana [code: render-own-name]
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Serif Hentaigana ExtraLight [code: render-own-name]
 </div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -981,7 +981,7 @@ fontbakery version: 0.10.8
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 290 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 289 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 2 glyphs (0.69%) have a different width. You should check the widths of: ['space', 'uni00A0'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
@@ -993,8 +993,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+0020 SPACE: try adding one of: duployan, new-tai-lue, latin, warang-citi, tai-viet, gunjala-gondi, old-permic, old-uyghur, indic-siyaq-numbers, vithkuqi, bhaiksuki, sharada, kaithi, psalter-pahlavi, old-sogdian, khmer, mende-kikakui, siddham, inscriptional-pahlavi, lycian, shavian, hanunoo, ogham, meroitic-hieroglyphs, wancho, hanifi-rohingya, avestan, mandaic, symbols, old-north-arabian, elbasan, miao, dogra, nushu, sora-sompeng, gothic, nyiakeng-puachue-hmong, braille, yi, meroitic-cursive, tifinagh, tangsa, buginese, chakma, math, osage, linear-a, khitan-small-script, buhid, zanabazar-square, tangut, khojki, ahom, anatolian-hieroglyphs, newa, bamum, nag-mundari, tagalog, tagbanwa, palmyrene, brahmi, tai-tham, cuneiform, pahawh-hmong, nabataean, thaana, adlam, cherokee, cypro-minoan, soyombo, toto, old-turkic, elymaic, rejang, javanese, signwriting, grantha, hatran, coptic, vai, cypriot, dives-akuru, sundanese, nko, masaram-gondi, manichaean, canadian-aboriginal, glagolitic, takri, ol-chiki, samaritan, syriac, carian, phags-pa, yezidi, mayan-numerals, runic, medefaidrin, old-italic, pau-cin-hau, music, balinese, tirhuta, caucasian-albanian, saurashtra, old-persian, old-hungarian, meroitic, imperial-aramaic, mongolian, bassa-vah, sogdian, inscriptional-parthian, meetei-mayek, nandinagari, batak, phoenician, cham, chorasmian, lydian, deseret, kawi, osmanya, makasar, marchen, kayah-li, khudawadi, tai-le, ugaritic, mro, syloti-nagri, kharoshthi, linear-b, lisu, limbu, multani, old-south-arabian, lepcha, modi, mahajani
- * U+00A0 NO-BREAK SPACE: try adding one of: duployan, new-tai-lue, latin, warang-citi, tai-viet, gunjala-gondi, old-permic, old-uyghur, indic-siyaq-numbers, vithkuqi, bhaiksuki, sharada, kaithi, psalter-pahlavi, old-sogdian, mende-kikakui, siddham, inscriptional-pahlavi, lycian, shavian, hanunoo, ogham, meroitic-hieroglyphs, wancho, hanifi-rohingya, avestan, mandaic, symbols, old-north-arabian, elbasan, miao, dogra, nushu, sora-sompeng, gothic, nyiakeng-puachue-hmong, braille, yi, meroitic-cursive, tifinagh, tangsa, buginese, chakma, math, osage, linear-a, khitan-small-script, buhid, zanabazar-square, tangut, khojki, ahom, anatolian-hieroglyphs, newa, bamum, nag-mundari, tagalog, tagbanwa, palmyrene, brahmi, tai-tham, cuneiform, pahawh-hmong, nabataean, thaana, adlam, cherokee, cypro-minoan, soyombo, toto, old-turkic, elymaic, rejang, javanese, signwriting, grantha, hatran, coptic, vai, cypriot, dives-akuru, sundanese, nko, masaram-gondi, manichaean, canadian-aboriginal, glagolitic, takri, ol-chiki, samaritan, syriac, carian, phags-pa, yezidi, mayan-numerals, runic, medefaidrin, old-italic, pau-cin-hau, music, balinese, tirhuta, caucasian-albanian, saurashtra, old-persian, old-hungarian, meroitic, imperial-aramaic, mongolian, bassa-vah, sogdian, inscriptional-parthian, meetei-mayek, nandinagari, batak, phoenician, cham, chorasmian, lydian, deseret, kawi, osmanya, makasar, marchen, kayah-li, khudawadi, tai-le, ugaritic, mro, syloti-nagri, kharoshthi, linear-b, lisu, limbu, multani, old-south-arabian, lepcha, modi, mahajani
+ * U+0020 SPACE: try adding one of: adlam, kawi, tirhuta, inscriptional-parthian, khmer, linear-b, phoenician, tifinagh, braille, limbu, marchen, bhaiksuki, buhid, signwriting, cypro-minoan, zanabazar-square, syloti-nagri, buginese, cypriot, nko, wancho, coptic, mro, miao, inscriptional-pahlavi, bamum, brahmi, runic, medefaidrin, duployan, tai-le, modi, nyiakeng-puachue-hmong, sharada, shavian, dives-akuru, canadian-aboriginal, tangsa, tai-viet, sundanese, music, gothic, meetei-mayek, math, lepcha, samaritan, tai-tham, multani, sora-sompeng, elymaic, nag-mundari, mandaic, tagalog, avestan, kayah-li, ogham, new-tai-lue, dogra, manichaean, symbols, osage, lisu, pau-cin-hau, phags-pa, tagbanwa, pahawh-hmong, grantha, kharoshthi, hanifi-rohingya, imperial-aramaic, syriac, gunjala-gondi, old-persian, vai, kaithi, palmyrene, soyombo, chorasmian, yezidi, ol-chiki, vithkuqi, khitan-small-script, makasar, meroitic, sogdian, yi, latin, cherokee, lydian, warang-citi, old-sogdian, balinese, javanese, nandinagari, lycian, meroitic-hieroglyphs, siddham, rejang, khojki, khudawadi, meroitic-cursive, mahajani, deseret, old-south-arabian, masaram-gondi, thaana, ahom, old-permic, old-uyghur, chakma, takri, mende-kikakui, ugaritic, old-hungarian, indic-siyaq-numbers, cuneiform, osmanya, old-north-arabian, bassa-vah, batak, glagolitic, hatran, old-turkic, nushu, anatolian-hieroglyphs, old-italic, saurashtra, carian, hanunoo, tangut, newa, elbasan, psalter-pahlavi, linear-a, cham, mongolian, toto, caucasian-albanian, nabataean, mayan-numerals
+ * U+00A0 NO-BREAK SPACE: try adding one of: adlam, kawi, tirhuta, inscriptional-parthian, linear-b, tifinagh, phoenician, braille, limbu, marchen, bhaiksuki, buhid, signwriting, cypro-minoan, zanabazar-square, syloti-nagri, buginese, cypriot, nko, wancho, coptic, mro, miao, inscriptional-pahlavi, bamum, brahmi, runic, medefaidrin, duployan, tai-le, modi, nyiakeng-puachue-hmong, sharada, shavian, dives-akuru, canadian-aboriginal, tangsa, tai-viet, sundanese, music, gothic, meetei-mayek, math, lepcha, samaritan, tai-tham, multani, sora-sompeng, elymaic, nag-mundari, mandaic, tagalog, avestan, kayah-li, ogham, new-tai-lue, dogra, manichaean, symbols, osage, lisu, pau-cin-hau, phags-pa, tagbanwa, pahawh-hmong, grantha, kharoshthi, hanifi-rohingya, imperial-aramaic, syriac, gunjala-gondi, old-persian, vai, kaithi, palmyrene, soyombo, chorasmian, yezidi, ol-chiki, vithkuqi, khitan-small-script, makasar, meroitic, sogdian, yi, latin, cherokee, lydian, warang-citi, old-sogdian, balinese, javanese, nandinagari, lycian, meroitic-hieroglyphs, siddham, rejang, khojki, khudawadi, meroitic-cursive, mahajani, deseret, old-south-arabian, masaram-gondi, thaana, ahom, old-permic, old-uyghur, chakma, takri, mende-kikakui, ugaritic, old-hungarian, indic-siyaq-numbers, cuneiform, osmanya, old-north-arabian, bassa-vah, batak, glagolitic, hatran, old-turkic, nushu, anatolian-hieroglyphs, old-italic, saurashtra, carian, hanunoo, tangut, newa, elbasan, psalter-pahlavi, linear-a, cham, mongolian, toto, caucasian-albanian, nabataean, mayan-numerals
  * U+1B002 HENTAIGANA LETTER A-1: not included in any glyphset definition
  * U+1B003 HENTAIGANA LETTER A-2: not included in any glyphset definition
  * U+1B004 HENTAIGANA LETTER A-3: not included in any glyphset definition
@@ -1285,6 +1285,31 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+1B122 KATAKANA LETTER ARCHAIC WU: not included in any glyphset definition
 
 Or you can add the above codepoints to one of the subsets supported by the font:  [code: unreachable-subsetting]
+</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+
+
+* ⚠ **WARN** OFL url is no longer "https://scripts.sil.org/OFL". Use 'https://openfontlicense.org' instead. [code: deprecated-ofl-url]
+</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 31 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
+
+
+* ⚠ **WARN** Name ID 4 'Noto Serif Hentaigana ExtraLight' exceeds 31 characters. This has been found to cause problems with the dropdown menu in old versions of Microsoft Word [code: nameid4-too-long]
+* ⚠ **WARN** Name ID 6 'NotoSerifHentaigana-ExtraLight' exceeds 27 characters. This has been found to cause problems with PostScript printers, especially on Mac platforms [code: nameid6-too-long]
+* ⚠ **WARN** Variable font instance name ExtraLight Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
+* ⚠ **WARN** Variable font instance name ExtraLight Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
+* ⚠ **WARN** Variable font instance name Light Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
+* ⚠ **WARN** Variable font instance name Light Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
+* ⚠ **WARN** Variable font instance name Regular Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
+* ⚠ **WARN** Variable font instance name Regular Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
+* ⚠ **WARN** Variable font instance name Medium Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
+* ⚠ **WARN** Variable font instance name Medium Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
+* ⚠ **WARN** Variable font instance name SemiBold Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
+* ⚠ **WARN** Variable font instance name SemiBold Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
+* ⚠ **WARN** Variable font instance name Bold Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
+* ⚠ **WARN** Variable font instance name Bold Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
+* ⚠ **WARN** Variable font instance name ExtraBold Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
+* ⚠ **WARN** Variable font instance name ExtraBold Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
+* ⚠ **WARN** Variable font instance name Black Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
+* ⚠ **WARN** Variable font instance name Black Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1298,9 +1323,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 ### Summary
 
 | 💔 ERROR | ☠ FATAL | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
-|:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 0 | 6 | 3 | 128 | 8 | 109 |
-| 0% | 0% | 2% | 1% | 50% | 3% | 43% |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| 1 | 0 | 6 | 5 | 109 | 9 | 126 | 0 |
+| 0% | 0% | 2% | 2% | 43% | 4% | 49% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
