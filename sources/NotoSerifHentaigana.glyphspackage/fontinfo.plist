@@ -734,6 +734,11 @@ value = GOOG;
 );
 unitsPerEm = 1000;
 userData = {
+GSDimensionPlugin.Dimensions = {
+m01 = {
+OV = "50";
+};
+};
 NP = {
 links = {
 VSComponents = "<null>";
