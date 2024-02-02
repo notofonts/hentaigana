@@ -4,7 +4,7 @@ glyphname = "ni-Te-kana";
 layers = (
 {
 backgroundImage = {
-imagePath = _sketch/u1B08E.png;
+imagePath = "_sketch/u1B08E.png";
 locked = 1;
 pos = (0,-120);
 };

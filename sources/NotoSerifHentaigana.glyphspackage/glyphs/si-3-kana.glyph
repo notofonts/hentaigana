@@ -106,7 +106,7 @@ nodes = (
 );
 };
 backgroundImage = {
-imagePath = _sketch/u1B046.png;
+imagePath = "_sketch/u1B046.png";
 locked = 1;
 pos = (0,-120);
 };

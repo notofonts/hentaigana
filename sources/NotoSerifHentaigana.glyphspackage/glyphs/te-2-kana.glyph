@@ -4,7 +4,7 @@ glyphname = "te-2-kana";
 layers = (
 {
 backgroundImage = {
-imagePath = _sketch/u1B06F.png;
+imagePath = "_sketch/u1B06F.png";
 locked = 1;
 pos = (0,-120);
 };
@@ -26,10 +26,10 @@ layerId = "027B829E-3619-44FF-8C68-78647B0AD671";
 shapes = (
 {
 alignment = -1;
-pos = (0,10);
 ref = _ninben_001;
 },
 {
+pos = (17,0);
 ref = _ou.001;
 }
 );

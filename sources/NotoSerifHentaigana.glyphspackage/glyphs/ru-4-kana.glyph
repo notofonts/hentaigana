@@ -4,7 +4,7 @@ glyphname = "ru-4-kana";
 layers = (
 {
 backgroundImage = {
-imagePath = _sketch/u1B0FB.png;
+imagePath = "_sketch/u1B0FB.png";
 locked = 1;
 pos = (0,-120);
 };

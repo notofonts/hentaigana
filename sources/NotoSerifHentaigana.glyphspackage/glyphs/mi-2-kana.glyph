@@ -4,7 +4,7 @@ glyphname = "mi-2-kana";
 layers = (
 {
 backgroundImage = {
-imagePath = _sketch/u1B0CA.png;
+imagePath = "_sketch/u1B0CA.png";
 locked = 1;
 pos = (0,-120);
 };
@@ -229,9 +229,9 @@ nodes = (
 (725,408,o),
 (745,417,o),
 (765,417,cs),
-(800,417,o),
+(792,417,o),
 (805,386,o),
-(805,301,cs),
+(805,311,cs),
 (805,131,o),
 (672,23,o),
 (389,-41,c),

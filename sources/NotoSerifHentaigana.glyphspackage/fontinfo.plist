@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3236";
 .formatVersion = 3;
 axes = (
 {
@@ -364,7 +364,6 @@ over = -16;
 pos = -120;
 },
 {
-over = -16;
 }
 );
 name = EL;
@@ -738,6 +737,15 @@ value = "Copyright 2023 The Noto Project Authors (https://github.com/notofonts/h
 );
 },
 {
+key = designers;
+values = (
+{
+language = dflt;
+value = "Kazuhiro Yamada";
+}
+);
+},
+{
 key = licenses;
 values = (
 {
@@ -751,19 +759,6 @@ key = licenseURL;
 value = "https://scripts.sil.org/OFL";
 },
 {
-key = trademarks;
-values = (
-{
-language = dflt;
-value = "Noto is a trademark of Google Inc.";
-}
-);
-},
-{
-key = manufacturerURL;
-value = "https://www.nipponia.in";
-},
-{
 key = manufacturers;
 values = (
 {
@@ -773,11 +768,15 @@ value = nipponia;
 );
 },
 {
-key = designers;
+key = manufacturerURL;
+value = "https://www.nipponia.in";
+},
+{
+key = trademarks;
 values = (
 {
 language = dflt;
-value = "Kazuhiro Yamada";
+value = "Noto is a trademark of Google Inc.";
 }
 );
 },
