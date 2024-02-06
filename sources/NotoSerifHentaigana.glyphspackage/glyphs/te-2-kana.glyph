@@ -40,11 +40,12 @@ layerId = "22BF860B-E605-42C1-AA52-30D9AB94E7CE";
 shapes = (
 {
 alignment = -1;
-pos = (0,10);
+pos = (0,6);
 ref = _ninben_001;
 },
 {
 alignment = -1;
+pos = (6,0);
 ref = _ou.001;
 }
 );
