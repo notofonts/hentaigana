@@ -1,15 +1,48 @@
 ## FontBakery report
 
-fontbakery version: 0.10.9
+fontbakery version: 0.11.1
 
-<details><summary><b>[1] Experimental checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+<h2>Experimental checks</h2><p>These won't break the CI job for now, but will become effective after some time if nobody raises any concern.</p><details><summary><b>[1] NotoSerifHentaigana[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check tabular widths don't have kerning. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/tabular_kerning">com.google.fonts/check/tabular_kerning</a>)</summary><div>
 
 
-* 🔥 **FAIL** No GF glyphset was found to be supported >80%, so language shaping support couldn't get checked. [code: no-glyphset-supported]
-</div></details><br></div></details><details><summary><b>[11] NotoSerifHentaigana[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
+* 💔 **ERROR** Failed with KeyError: None
+```
+  File "/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontbakery/checkrunner.py", line 170, in _exec_check
+    results.extend(list(result))
+                   ^^^^^^^^^^^^
+  File "/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontbakery/profiles/universal.py", line 2341, in com_google_fonts_check_tabular_kerning
+    glyph_widths = [
+                   ^
+  File "/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontbakery/profiles/universal.py", line 2342, in <listcomp>
+    glyph_width(ttFont, glyph_name_for_character(ttFont, str(i)))
+  File "/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontbakery/profiles/universal.py", line 2240, in glyph_width
+    return ttFont["hmtx"].metrics[glyph_name][0]
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+
+``` [code: failed-check]
+</div></details><br></div></details><h2>All other checks</h2><details><summary><b>[12] NotoSerifHentaigana[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with KeyError: 'uni0E70'
+```
+  File "/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontbakery/checkrunner.py", line 170, in _exec_check
+    results.extend(list(result))
+                   ^^^^^^^^^^^^
+  File "/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontbakery/profiles/shaping.py", line 235, in com_google_fonts_check_shaping_regression
+    yield from run_a_set_of_shaping_tests(
+  File "/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontbakery/profiles/shaping.py", line 207, in run_a_set_of_shaping_tests
+    yield from generate_report(
+  File "/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontbakery/profiles/shaping.py", line 271, in generate_shaping_regression_report
+    buf2 = vharfbuzz.buf_from_string(expected)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/vharfbuzz/__init__.py", line 177, in buf_from_string
+    info.codepoint = self.ttfont.getGlyphID(groups[0])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontTools/ttLib/ttFont.py", line 665, in getGlyphID
+    return self.getReverseGlyphMap()[glyphName]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+
+``` [code: failed-check]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -965,6 +998,62 @@ fontbakery version: 0.10.9
 
 	- 0x2212 (MINUS SIGN)
  [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+
+
+* 🔥 **FAIL** No GF glyphset was found to be supported >80%, so language shaping support couldn't get checked. [code: no-glyphset-supported]
+</div></details><details><summary>🔥 <b>FAIL:</b> Combined length of family and style must not exceed 32 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
+
+
+* 🔥 **FAIL** Variable font instance name 'ExtraLight Noto Serif Hentaigana ExtraLight' formed by space-separated concatenation of instance subfamily nameID 257 and font family name (nameID 1) exceeds 32 characters.
+
+This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11. [code: instance-too-long]
+* 🔥 **FAIL** Variable font instance name 'ExtraLight Noto Serif Hentaigana ExtraLight' formed by space-separated concatenation of instance subfamily nameID 257 and font family name (nameID 1) exceeds 32 characters.
+
+This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11. [code: instance-too-long]
+* 🔥 **FAIL** Variable font instance name 'Light Noto Serif Hentaigana ExtraLight' formed by space-separated concatenation of instance subfamily nameID 258 and font family name (nameID 1) exceeds 32 characters.
+
+This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11. [code: instance-too-long]
+* 🔥 **FAIL** Variable font instance name 'Light Noto Serif Hentaigana ExtraLight' formed by space-separated concatenation of instance subfamily nameID 258 and font family name (nameID 1) exceeds 32 characters.
+
+This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11. [code: instance-too-long]
+* 🔥 **FAIL** Variable font instance name 'Regular Noto Serif Hentaigana ExtraLight' formed by space-separated concatenation of instance subfamily nameID 259 and font family name (nameID 1) exceeds 32 characters.
+
+This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11. [code: instance-too-long]
+* 🔥 **FAIL** Variable font instance name 'Regular Noto Serif Hentaigana ExtraLight' formed by space-separated concatenation of instance subfamily nameID 259 and font family name (nameID 1) exceeds 32 characters.
+
+This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11. [code: instance-too-long]
+* 🔥 **FAIL** Variable font instance name 'Medium Noto Serif Hentaigana ExtraLight' formed by space-separated concatenation of instance subfamily nameID 260 and font family name (nameID 1) exceeds 32 characters.
+
+This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11. [code: instance-too-long]
+* 🔥 **FAIL** Variable font instance name 'Medium Noto Serif Hentaigana ExtraLight' formed by space-separated concatenation of instance subfamily nameID 260 and font family name (nameID 1) exceeds 32 characters.
+
+This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11. [code: instance-too-long]
+* 🔥 **FAIL** Variable font instance name 'SemiBold Noto Serif Hentaigana ExtraLight' formed by space-separated concatenation of instance subfamily nameID 261 and font family name (nameID 1) exceeds 32 characters.
+
+This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11. [code: instance-too-long]
+* 🔥 **FAIL** Variable font instance name 'SemiBold Noto Serif Hentaigana ExtraLight' formed by space-separated concatenation of instance subfamily nameID 261 and font family name (nameID 1) exceeds 32 characters.
+
+This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11. [code: instance-too-long]
+* 🔥 **FAIL** Variable font instance name 'Bold Noto Serif Hentaigana ExtraLight' formed by space-separated concatenation of instance subfamily nameID 262 and font family name (nameID 1) exceeds 32 characters.
+
+This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11. [code: instance-too-long]
+* 🔥 **FAIL** Variable font instance name 'Bold Noto Serif Hentaigana ExtraLight' formed by space-separated concatenation of instance subfamily nameID 262 and font family name (nameID 1) exceeds 32 characters.
+
+This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11. [code: instance-too-long]
+* 🔥 **FAIL** Variable font instance name 'ExtraBold Noto Serif Hentaigana ExtraLight' formed by space-separated concatenation of instance subfamily nameID 263 and font family name (nameID 1) exceeds 32 characters.
+
+This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11. [code: instance-too-long]
+* 🔥 **FAIL** Variable font instance name 'ExtraBold Noto Serif Hentaigana ExtraLight' formed by space-separated concatenation of instance subfamily nameID 263 and font family name (nameID 1) exceeds 32 characters.
+
+This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11. [code: instance-too-long]
+* 🔥 **FAIL** Variable font instance name 'Black Noto Serif Hentaigana ExtraLight' formed by space-separated concatenation of instance subfamily nameID 264 and font family name (nameID 1) exceeds 32 characters.
+
+This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11. [code: instance-too-long]
+* 🔥 **FAIL** Variable font instance name 'Black Noto Serif Hentaigana ExtraLight' formed by space-separated concatenation of instance subfamily nameID 264 and font family name (nameID 1) exceeds 32 characters.
+
+This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11. [code: instance-too-long]
+* ⚠ **WARN** Name ID 6 'NotoSerifHentaigana-ExtraLight' exceeds 27 characters. This has been found to cause problems with PostScript printers, especially on Mac platforms. [code: nameid6-too-long]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -993,8 +1082,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+0020 SPACE: try adding one of: cypro-minoan, lycian, chorasmian, old-turkic, marchen, kharoshthi, pau-cin-hau, sora-sompeng, tai-tham, samaritan, tai-viet, grantha, nag-mundari, sogdian, batak, dives-akuru, coptic, khojki, music, glagolitic, syloti-nagri, kaithi, thaana, phoenician, old-hungarian, duployan, palmyrene, nabataean, zanabazar-square, ol-chiki, tangsa, bassa-vah, cypriot, avestan, toto, meroitic, bhaiksuki, lepcha, khudawadi, multani, newa, cham, chakma, nko, ahom, medefaidrin, linear-b, elbasan, osmanya, indic-siyaq-numbers, kayah-li, mayan-numerals, hanifi-rohingya, vai, yi, modi, sharada, saurashtra, ugaritic, new-tai-lue, khitan-small-script, balinese, pahawh-hmong, signwriting, old-italic, gunjala-gondi, cherokee, inscriptional-parthian, anatolian-hieroglyphs, old-uyghur, nushu, runic, meroitic-cursive, carian, inscriptional-pahlavi, rejang, meroitic-hieroglyphs, osage, adlam, latin, limbu, old-permic, meetei-mayek, tirhuta, shavian, miao, buhid, elymaic, tai-le, math, nyiakeng-puachue-hmong, dogra, takri, mende-kikakui, masaram-gondi, psalter-pahlavi, vithkuqi, old-north-arabian, deseret, khmer, mongolian, imperial-aramaic, mahajani, linear-a, yezidi, ogham, old-persian, phags-pa, braille, caucasian-albanian, tangut, brahmi, soyombo, tagalog, tifinagh, lydian, mro, canadian-aboriginal, gothic, makasar, siddham, tagbanwa, old-sogdian, sundanese, warang-citi, hanunoo, lisu, symbols, javanese, wancho, syriac, cuneiform, old-south-arabian, manichaean, mandaic, nandinagari, kawi, hatran, bamum, buginese
- * U+00A0 NO-BREAK SPACE: try adding one of: cypro-minoan, lycian, chorasmian, old-turkic, marchen, kharoshthi, pau-cin-hau, sora-sompeng, tai-tham, samaritan, tai-viet, grantha, nag-mundari, sogdian, batak, dives-akuru, coptic, khojki, music, glagolitic, syloti-nagri, kaithi, thaana, phoenician, old-hungarian, duployan, palmyrene, nabataean, zanabazar-square, ol-chiki, tangsa, bassa-vah, cypriot, avestan, toto, meroitic, bhaiksuki, lepcha, khudawadi, multani, newa, cham, chakma, nko, ahom, medefaidrin, linear-b, elbasan, osmanya, indic-siyaq-numbers, kayah-li, mayan-numerals, hanifi-rohingya, vai, yi, modi, sharada, saurashtra, ugaritic, new-tai-lue, khitan-small-script, balinese, pahawh-hmong, signwriting, old-italic, gunjala-gondi, cherokee, inscriptional-parthian, anatolian-hieroglyphs, old-uyghur, nushu, runic, meroitic-cursive, carian, inscriptional-pahlavi, rejang, meroitic-hieroglyphs, osage, adlam, latin, limbu, old-permic, meetei-mayek, tirhuta, shavian, miao, buhid, elymaic, tai-le, math, nyiakeng-puachue-hmong, dogra, takri, mende-kikakui, masaram-gondi, psalter-pahlavi, vithkuqi, old-north-arabian, deseret, mongolian, imperial-aramaic, mahajani, linear-a, yezidi, ogham, old-persian, phags-pa, braille, caucasian-albanian, tangut, brahmi, soyombo, tagalog, tifinagh, lydian, mro, canadian-aboriginal, gothic, makasar, siddham, tagbanwa, old-sogdian, sundanese, warang-citi, hanunoo, lisu, symbols, javanese, wancho, syriac, cuneiform, old-south-arabian, manichaean, mandaic, nandinagari, kawi, hatran, bamum, buginese
  * U+1B002 HENTAIGANA LETTER A-1: not included in any glyphset definition
  * U+1B003 HENTAIGANA LETTER A-2: not included in any glyphset definition
  * U+1B004 HENTAIGANA LETTER A-3: not included in any glyphset definition
@@ -1284,32 +1371,11 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
  * U+1B121 KATAKANA LETTER ARCHAIC YE: not included in any glyphset definition
  * U+1B122 KATAKANA LETTER ARCHAIC WU: not included in any glyphset definition
 
-Or you can add the above codepoints to one of the subsets supported by the font:  [code: unreachable-subsetting]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin-ext` [code: unreachable-subsetting]
+</div></details><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
-* ⚠ **WARN** OFL url is no longer "https://scripts.sil.org/OFL". Use 'https://openfontlicense.org' instead. [code: deprecated-ofl-url]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 31 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** Name ID 4 'Noto Serif Hentaigana ExtraLight' exceeds 31 characters. This has been found to cause problems with the dropdown menu in old versions of Microsoft Word [code: nameid4-too-long]
-* ⚠ **WARN** Name ID 6 'NotoSerifHentaigana-ExtraLight' exceeds 27 characters. This has been found to cause problems with PostScript printers, especially on Mac platforms [code: nameid6-too-long]
-* ⚠ **WARN** Variable font instance name ExtraLight Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
-* ⚠ **WARN** Variable font instance name ExtraLight Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
-* ⚠ **WARN** Variable font instance name Light Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
-* ⚠ **WARN** Variable font instance name Light Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
-* ⚠ **WARN** Variable font instance name Regular Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
-* ⚠ **WARN** Variable font instance name Regular Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
-* ⚠ **WARN** Variable font instance name Medium Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
-* ⚠ **WARN** Variable font instance name Medium Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
-* ⚠ **WARN** Variable font instance name SemiBold Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
-* ⚠ **WARN** Variable font instance name SemiBold Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
-* ⚠ **WARN** Variable font instance name Bold Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
-* ⚠ **WARN** Variable font instance name Bold Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
-* ⚠ **WARN** Variable font instance name ExtraBold Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
-* ⚠ **WARN** Variable font instance name ExtraBold Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
-* ⚠ **WARN** Variable font instance name Black Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
-* ⚠ **WARN** Variable font instance name Black Noto Serif Hentaigana ExtraLight exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
+* ⚠ **WARN** Please consider updating the url from 'https://scripts.sil.org/OFL' to 'https://openfontlicense.org'. [code: old-url]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1324,8 +1390,8 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 | 💔 ERROR | ☠ FATAL | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| 1 | 0 | 6 | 5 | 109 | 9 | 126 | 0 |
-| 0% | 0% | 2% | 2% | 43% | 4% | 49% | 0% |
+| 2 | 0 | 7 | 4 | 111 | 9 | 127 | 0 |
+| 1% | 0% | 3% | 2% | 43% | 3% | 49% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
