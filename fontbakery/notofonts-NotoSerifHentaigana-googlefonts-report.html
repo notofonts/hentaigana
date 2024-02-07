@@ -315,7 +315,7 @@ immediately.
             
                 <h2>Google Fonts</h2>
 <span class='section__emoji'>
-    🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️
+    💥🔥🔥🔥🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️
 </span>
 
     
@@ -1875,7 +1875,7 @@ definitions.</p>
     
         <details>
             <summary>
-                🔥
+                💥
                 NotoSerifHentaigana[wght].ttf
                 
             </summary>
@@ -1884,26 +1884,25 @@ definitions.</p>
                 
                         <li class='details_item'>
                             <span class='details_indicator'>
-                            🔥 FAIL
+                            💥 ERROR
                             </span>
 
                             <span class='details_text'>
-                            <p>No GF glyphset was found to be supported &gt;80%, so language shaping support couldn't get checked.</p>
+                            <p>Failed with AttributeError: 'Vharfbuzz' object has no attribute 'ttfont'</p>
+<pre><code>  File &quot;/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontbakery/checkrunner.py&quot;, line 170, in _exec_check
+    results.extend(list(result))
+                   ^^^^^^^^^^^^
+  File &quot;/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontbakery/profiles/googlefonts.py&quot;, line 3537, in com_google_fonts_check_glyphsets_shape_languages
+    shaperglot_checker = Checker(ttFont.reader.file.name)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/shaperglot/checker.py&quot;, line 23, in __init__
+    self.ttfont = self.vharfbuzz.ttfont
+                  ^^^^^^^^^^^^^^^^^^^^^
+
+</code></pre>
 
                             
-                             [code: no-glyphset-supported]
-                            
-                            </span>
-                        </li>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            ✅ PASS
-                            </span>
-
-                            <span class='details_text'>
-                            <p>OK.</p>
-
+                             [code: failed-check]
                             
                             </span>
                         </li>
@@ -2848,7 +2847,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
             
                 <h2>Shaping Checks</h2>
 <span class='section__emoji'>
-    💥⏩⏩⏩⏩
+    🔥⏩⏩⏩⏩
 </span>
 
     
@@ -2870,7 +2869,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
     
         <details>
             <summary>
-                💥
+                🔥
                 NotoSerifHentaigana[wght].ttf
                 
             </summary>
@@ -2879,32 +2878,23 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
                 
                         <li class='details_item'>
                             <span class='details_indicator'>
-                            💥 ERROR
+                            🔥 FAIL
                             </span>
 
                             <span class='details_text'>
-                            <p>Failed with KeyError: 'uni0E70'</p>
-<pre><code>  File &quot;/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontbakery/checkrunner.py&quot;, line 170, in _exec_check
-    results.extend(list(result))
-                   ^^^^^^^^^^^^
-  File &quot;/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontbakery/profiles/shaping.py&quot;, line 235, in com_google_fonts_check_shaping_regression
-    yield from run_a_set_of_shaping_tests(
-  File &quot;/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontbakery/profiles/shaping.py&quot;, line 207, in run_a_set_of_shaping_tests
-    yield from generate_report(
-  File &quot;/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontbakery/profiles/shaping.py&quot;, line 271, in generate_shaping_regression_report
-    buf2 = vharfbuzz.buf_from_string(expected)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/vharfbuzz/__init__.py&quot;, line 177, in buf_from_string
-    info.codepoint = self.ttfont.getGlyphID(groups[0])
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontTools/ttLib/ttFont.py&quot;, line 665, in getGlyphID
-    return self.getReverseGlyphMap()[glyphName]
-           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
-
+                            <p>qa/shaping_tests/example.json: Expected and actual shaping not matching</p>
+<ul>
+<li>
+<p>Shaping did not match: ๰</p>
+<pre><code>Expected: None
+Got     : .notdef=0+500
 </code></pre>
+<p>Got: <svg style="height:100px;margin:10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 -880 550 1760" transform="matrix(1 0 0 -1 0 0)"> <defs> <path id="g0" d="M50.0,-120.0L50.0,880.0L450.0,880.0L450.0,-120.0L50.0,-120.0ZM100.0,-70.0L400.0,-70.0L400.0,830.0L100.0,830.0L100.0,-70.0Z"/> </defs> <g transform="translate(0,0)"> <use href="#g0"/> </g> </svg></p>
+</li>
+</ul>
 
                             
-                             [code: failed-check]
+                             [code: shaping-regression]
                             
                             </span>
                         </li>

@@ -20,27 +20,20 @@ fontbakery version: 0.11.1
            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
 
 ``` [code: failed-check]
-</div></details><br></div></details><h2>All other checks</h2><details><summary><b>[12] NotoSerifHentaigana[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
+</div></details><br></div></details><h2>All other checks</h2><details><summary><b>[12] NotoSerifHentaigana[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with KeyError: 'uni0E70'
+* 💔 **ERROR** Failed with AttributeError: 'Vharfbuzz' object has no attribute 'ttfont'
 ```
   File "/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontbakery/checkrunner.py", line 170, in _exec_check
     results.extend(list(result))
                    ^^^^^^^^^^^^
-  File "/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontbakery/profiles/shaping.py", line 235, in com_google_fonts_check_shaping_regression
-    yield from run_a_set_of_shaping_tests(
-  File "/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontbakery/profiles/shaping.py", line 207, in run_a_set_of_shaping_tests
-    yield from generate_report(
-  File "/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontbakery/profiles/shaping.py", line 271, in generate_shaping_regression_report
-    buf2 = vharfbuzz.buf_from_string(expected)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/vharfbuzz/__init__.py", line 177, in buf_from_string
-    info.codepoint = self.ttfont.getGlyphID(groups[0])
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontTools/ttLib/ttFont.py", line 665, in getGlyphID
-    return self.getReverseGlyphMap()[glyphName]
-           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/fontbakery/profiles/googlefonts.py", line 3537, in com_google_fonts_check_glyphsets_shape_languages
+    shaperglot_checker = Checker(ttFont.reader.file.name)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/hentaigana/hentaigana/venv/lib/python3.11/site-packages/shaperglot/checker.py", line 23, in __init__
+    self.ttfont = self.vharfbuzz.ttfont
+                  ^^^^^^^^^^^^^^^^^^^^^
 
 ``` [code: failed-check]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
@@ -998,10 +991,6 @@ fontbakery version: 0.11.1
 
 	- 0x2212 (MINUS SIGN)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
-
-
-* 🔥 **FAIL** No GF glyphset was found to be supported >80%, so language shaping support couldn't get checked. [code: no-glyphset-supported]
 </div></details><details><summary>🔥 <b>FAIL:</b> Combined length of family and style must not exceed 32 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1073,6 +1062,15 @@ This has been found to cause shaping issues for some accented letters in Microso
 * ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 289 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
 * ⚠ **WARN** Font is monospaced but 2 glyphs (0.69%) have a different width. You should check the widths of: ['space', 'uni00A0'] [code: mono-outliers]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
+
+
+* 🔥 **FAIL** qa/shaping_tests/example.json: Expected and actual shaping not matching
+* Shaping did not match: ๰
+
+      Expected: None
+      Got     : .notdef=0+500
+  Got: <svg style="height:100px;margin:10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 -880 550 1760" transform="matrix(1 0 0 -1 0 0)"> <defs> <path id="g0" d="M50.0,-120.0L50.0,880.0L450.0,880.0L450.0,-120.0L50.0,-120.0ZM100.0,-70.0L400.0,-70.0L400.0,830.0L100.0,830.0L100.0,-70.0Z"/> </defs> <g transform="translate(0,0)"> <use href="#g0"/> </g> </svg>  [code: shaping-regression]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
