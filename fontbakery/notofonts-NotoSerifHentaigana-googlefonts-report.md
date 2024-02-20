@@ -118,9 +118,9 @@ This has been found to cause shaping issues for some accented letters in Microso
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 292 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 467 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
-* ⚠ **WARN** Font is monospaced but 2 glyphs (0.68%) have a different width. You should check the widths of: ['space', 'uni00A0'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 2 glyphs (0.43%) have a different width. You should check the widths of: ['space', 'uni00A0'] [code: mono-outliers]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
@@ -447,9 +447,9 @@ Please check that these glyphs have the correct unicodes. [code: cjk-not-enough-
 
 * ⚠ **WARN** Interpolation issues were found in the font:
 
-	- Contour 4 start point differs in glyph 'u1B0A0' between location wght=462 and location wght=900
+	- Contour 1 start point differs in glyph 'u1B0F5' between location wght=462 and location wght=900
 
-	- Contour 1 start point differs in glyph 'u1B0F5' between location wght=462 and location wght=900 [code: interpolation-issues]
+	- Contour 4 start point differs in glyph 'u1B0A0' between location wght=462 and location wght=900 [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
