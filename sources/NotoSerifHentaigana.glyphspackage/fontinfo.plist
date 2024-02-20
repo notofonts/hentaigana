@@ -1,5 +1,5 @@
 {
-.appVersion = "3236";
+.appVersion = "3227";
 .formatVersion = 3;
 axes = (
 {
@@ -449,6 +449,7 @@ title = Hentaigana;
 };
 };
 };
+visible = 1;
 },
 {
 axesValues = (
