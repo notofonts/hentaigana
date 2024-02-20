@@ -5,6 +5,8 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
+pos = (-40,0);
 ref = "ka-8-kana";
 },
 {
@@ -18,6 +20,8 @@ width = 1000;
 layerId = "22BF860B-E605-42C1-AA52-30D9AB94E7CE";
 shapes = (
 {
+alignment = -1;
+pos = (-30,0);
 ref = "ka-8-kana";
 },
 {
@@ -31,6 +35,8 @@ width = 1000;
 layerId = "027B829E-3619-44FF-8C68-78647B0AD671";
 shapes = (
 {
+alignment = -1;
+pos = (-60,0);
 ref = "ka-8-kana";
 },
 {

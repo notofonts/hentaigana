@@ -8,7 +8,7 @@ shapes = (
 ref = "ku-3-kana";
 },
 {
-pos = (950,0);
+pos = (850,0);
 ref = "voicedcomb-kana";
 }
 );
@@ -21,7 +21,7 @@ shapes = (
 ref = "ku-3-kana";
 },
 {
-pos = (950,0);
+pos = (850,0);
 ref = "voicedcomb-kana";
 }
 );
@@ -34,7 +34,7 @@ shapes = (
 ref = "ku-3-kana";
 },
 {
-pos = (950,0);
+pos = (810,0);
 ref = "voicedcomb-kana";
 }
 );
