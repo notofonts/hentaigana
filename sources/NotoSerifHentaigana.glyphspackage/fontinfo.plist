@@ -522,16 +522,6 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = ExtraLight;
-properties = (
-{
-key = postscriptFontName;
-value = "NotoSerifHentaigana-ExtraLight";
-},
-{
-key = postscriptFullName;
-value = "Noto Serif Hentaigana ExtraLight";
-}
-);
 weightClass = 200;
 },
 {
@@ -543,16 +533,6 @@ instanceInterpolations = {
 m01 = 0.66667;
 };
 name = Light;
-properties = (
-{
-key = postscriptFontName;
-value = "NotoSerifHentaigana-Light";
-},
-{
-key = postscriptFullName;
-value = "Noto Serif Hentaigana Light";
-}
-);
 weightClass = 300;
 },
 {
@@ -564,16 +544,6 @@ instanceInterpolations = {
 m01 = 0.33333;
 };
 name = Regular;
-properties = (
-{
-key = postscriptFontName;
-value = "NotoSerifHentaigana-Regular";
-},
-{
-key = postscriptFullName;
-value = "Noto Serif Hentaigana Regular";
-}
-);
 },
 {
 axesValues = (
@@ -583,16 +553,6 @@ instanceInterpolations = {
 "22BF860B-E605-42C1-AA52-30D9AB94E7CE" = 1;
 };
 name = Medium;
-properties = (
-{
-key = postscriptFontName;
-value = "NotoSerifHentaigana-Medium";
-},
-{
-key = postscriptFullName;
-value = "Noto Serif Hentaigana Medium";
-}
-);
 weightClass = 500;
 },
 {
@@ -604,16 +564,6 @@ instanceInterpolations = {
 "22BF860B-E605-42C1-AA52-30D9AB94E7CE" = 0.8;
 };
 name = SemiBold;
-properties = (
-{
-key = postscriptFontName;
-value = "NotoSerifHentaigana-SemiBold";
-},
-{
-key = postscriptFullName;
-value = "Noto Serif Hentaigana SemiBold";
-}
-);
 weightClass = 600;
 },
 {
@@ -625,16 +575,6 @@ instanceInterpolations = {
 "22BF860B-E605-42C1-AA52-30D9AB94E7CE" = 0.4;
 };
 name = Bold;
-properties = (
-{
-key = postscriptFontName;
-value = "NotoSerifHentaigana-Bold";
-},
-{
-key = postscriptFullName;
-value = "Noto Serif Hentaigana Bold";
-}
-);
 weightClass = 700;
 },
 {
@@ -645,65 +585,7 @@ instanceInterpolations = {
 "027B829E-3619-44FF-8C68-78647B0AD671" = 1;
 };
 name = Black;
-properties = (
-{
-key = postscriptFontName;
-value = "NotoSerifHentaigana-Black";
-},
-{
-key = postscriptFullName;
-value = "Noto Serif Hentaigana Black";
-}
-);
 weightClass = 900;
-},
-{
-axesValues = (
-925
-);
-exports = 0;
-instanceInterpolations = {
-"027B829E-3619-44FF-8C68-78647B0AD671" = 1.04063;
-"22BF860B-E605-42C1-AA52-30D9AB94E7CE" = -0.025;
-m01 = -0.01563;
-};
-name = W925;
-},
-{
-axesValues = (
-950
-);
-exports = 0;
-instanceInterpolations = {
-"027B829E-3619-44FF-8C68-78647B0AD671" = 1.08125;
-"22BF860B-E605-42C1-AA52-30D9AB94E7CE" = -0.05;
-m01 = -0.03125;
-};
-name = W950;
-},
-{
-axesValues = (
-975
-);
-exports = 0;
-instanceInterpolations = {
-"027B829E-3619-44FF-8C68-78647B0AD671" = 1.12187;
-"22BF860B-E605-42C1-AA52-30D9AB94E7CE" = -0.075;
-m01 = -0.04688;
-};
-name = W975;
-},
-{
-axesValues = (
-1100
-);
-exports = 0;
-instanceInterpolations = {
-"027B829E-3619-44FF-8C68-78647B0AD671" = 1.325;
-"22BF860B-E605-42C1-AA52-30D9AB94E7CE" = -0.2;
-m01 = -0.125;
-};
-name = W1100;
 }
 );
 metrics = (
