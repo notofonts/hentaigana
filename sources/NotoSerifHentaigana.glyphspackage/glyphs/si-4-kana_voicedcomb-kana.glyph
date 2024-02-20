@@ -1,0 +1,44 @@
+{
+glyphname = "si-4-kana_voicedcomb-kana";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "si-4-kana";
+},
+{
+pos = (950,0);
+ref = "voicedcomb-kana";
+}
+);
+width = 1000;
+},
+{
+layerId = "22BF860B-E605-42C1-AA52-30D9AB94E7CE";
+shapes = (
+{
+ref = "si-4-kana";
+},
+{
+pos = (950,0);
+ref = "voicedcomb-kana";
+}
+);
+width = 1000;
+},
+{
+layerId = "027B829E-3619-44FF-8C68-78647B0AD671";
+shapes = (
+{
+ref = "si-4-kana";
+},
+{
+pos = (950,0);
+ref = "voicedcomb-kana";
+}
+);
+width = 1000;
+}
+);
+}
