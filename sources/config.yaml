@@ -1,6 +1,9 @@
 googleFonts: true
 category: 
 - SERIF
+includeSubsets:
+- from: Noto Serif
+  name: GF_Latin_Core
 sources:
 - NotoSerifHentaigana.glyphspackage
 familyName: Noto Serif Hentaigana
