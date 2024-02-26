@@ -264,4 +264,5 @@ width = 1000;
 }
 );
 script = " other";
+unicode = 110592;
 }
