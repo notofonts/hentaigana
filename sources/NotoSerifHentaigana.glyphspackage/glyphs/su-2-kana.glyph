@@ -4,7 +4,7 @@ glyphname = "su-2-kana";
 layers = (
 {
 backgroundImage = {
-imagePath = _sketch/u1B04B.png;
+imagePath = "_sketch/u1B04B.png";
 locked = 1;
 pos = (0,-120);
 };

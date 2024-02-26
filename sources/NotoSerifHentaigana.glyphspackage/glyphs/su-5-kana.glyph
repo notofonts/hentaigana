@@ -11,7 +11,7 @@ ref = "su-2-kana";
 );
 };
 backgroundImage = {
-imagePath = _sketch/u1B04E.png;
+imagePath = "_sketch/u1B04E.png";
 locked = 1;
 pos = (0,-120);
 };

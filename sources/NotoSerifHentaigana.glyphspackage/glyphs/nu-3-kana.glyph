@@ -11,7 +11,7 @@ ref = "we-1-kana";
 );
 };
 backgroundImage = {
-imagePath = _sketch/u1B091.png;
+imagePath = "_sketch/u1B091.png";
 locked = 1;
 pos = (0,-120);
 };

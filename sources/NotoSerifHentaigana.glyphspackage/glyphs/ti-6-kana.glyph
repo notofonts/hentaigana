@@ -4,7 +4,7 @@ glyphname = "ti-6-kana";
 layers = (
 {
 backgroundImage = {
-imagePath = _sketch/u1B067.png;
+imagePath = "_sketch/u1B067.png";
 locked = 1;
 pos = (0,-120);
 };
