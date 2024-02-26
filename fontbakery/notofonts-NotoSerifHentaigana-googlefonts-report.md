@@ -20,7 +20,7 @@ fontbakery version: 0.11.2
            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
 
 ``` [code: failed-check]
-</div></details><br></div></details><h2>All other checks</h2><details><summary><b>[15] NotoSerifHentaigana[wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><h2>All other checks</h2><details><summary><b>[12] NotoSerifHentaigana[wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1031,10 +1031,6 @@ This has been found to cause shaping issues for some accented letters in Microso
 
 This has been found to cause shaping issues for some accented letters in Microsoft Word on Windows 10 and 11. [code: instance-too-long]
 * ⚠ **WARN** Name ID 6 'NotoSerifHentaigana-ExtraLight' exceeds 27 characters. This has been found to cause problems with PostScript printers, especially on Mac platforms. [code: nameid6-too-long]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1000 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
 
 
@@ -1058,7 +1054,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
       Expected: None
       Got     : .notdef=0+500
-  Got: <svg style="height:100px;margin:10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 -880 550 1760" transform="matrix(1 0 0 -1 0 0)"> <defs> <path id="g0" d="M50.0,-120.0L50.0,880.0L450.0,880.0L450.0,-120.0L50.0,-120.0ZM100.0,-70.0L400.0,-70.0L400.0,830.0L100.0,830.0L100.0,-70.0Z"/> </defs> <g transform="translate(0,0)"> <use href="#g0"/> </g> </svg>  [code: shaping-regression]
+  Got: <svg style="height:100px;margin:10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 -1151 550 2302" transform="matrix(1 0 0 -1 0 0)"> <defs> <path id="g0" d="M50.0,-286.0L50.0,1151.0L450.0,1151.0L450.0,-286.0L50.0,-286.0ZM100.0,-236.0L400.0,-236.0L400.0,1101.0L100.0,1101.0L100.0,-236.0Z"/> </defs> <g transform="translate(0,0)"> <use href="#g0"/> </g> </svg>  [code: shaping-regression]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -1070,6 +1066,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
  * U+3099 COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK: try adding one of: japanese, chinese-simplified
  * U+309A COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK: try adding one of: japanese, chinese-simplified
+ * U+1B000 KATAKANA LETTER ARCHAIC E: not included in any glyphset definition
+ * U+1B001 HIRAGANA LETTER ARCHAIC YE: not included in any glyphset definition
  * U+1B002 HENTAIGANA LETTER A-1: not included in any glyphset definition
  * U+1B003 HENTAIGANA LETTER A-2: not included in any glyphset definition
  * U+1B004 HENTAIGANA LETTER A-3: not included in any glyphset definition
@@ -1371,21 +1369,6 @@ Please check that these glyphs have the correct unicodes. [code: cjk-not-enough-
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- archaicEkatakana
-
-	- archaicYehiragana
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
-
-
-* ⚠ **WARN** Interpolation issues were found in the font:
-
-	- Contour 4 start point differs in glyph 'u1B0A0' between location wght=462 and location wght=900 [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -1400,8 +1383,8 @@ Please check that these glyphs have the correct unicodes. [code: cjk-not-enough-
 
 | 💔 ERROR | ☠ FATAL | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| 1 | 0 | 8 | 7 | 105 | 9 | 130 | 0 |
-| 0% | 0% | 3% | 3% | 40% | 3% | 50% | 0% |
+| 1 | 0 | 7 | 5 | 105 | 9 | 133 | 0 |
+| 0% | 0% | 3% | 2% | 40% | 3% | 51% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
