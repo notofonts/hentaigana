@@ -8,5 +8,12 @@
 #
 # Names should be added to this file as:
 # Name <email address>
-Kazuhiro Yamada <yamada@nipponia.in>  # Designer
-Min-Young Kim <mintoming@gmail.com>   # Project manager
+
+# Designer
+Kazuhiro Yamada <yamada@nipponia.in>
+
+# Project manager
+Min-Young Kim <mintoming@gmail.com>
+
+# Consultants
+Tarin Clanuwat <tarinwaseda@gmail.com>
