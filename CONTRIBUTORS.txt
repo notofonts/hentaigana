@@ -8,5 +8,18 @@
 #
 # Names should be added to this file as:
 # Name <email address>
-Kazuhiro Yamada <yamada@nipponia.in>  # Designer
-Min-Young Kim <mintoming@gmail.com>   # Project manager
+
+# Designer
+Kazuhiro Yamada <yamada@nipponia.in>
+
+# Project manager
+Min-Young Kim <mintoming@gmail.com>
+
+# Consultants
+Tarin Clanuwat
+Asanobu Kitamoto <kitamoto@nii.ac.jp>
+Tomokazu Takada <ttakada@ninjal.ac.jp>
+Tsutomu Yada <yada@boz.c.u-tokyo.ac.jp>
+Tatsuya Saito <tsaito@isc.senshu-u.ac.jp>
+Kazuhiro Okada <k-okada@keio.jp>
+Bert Chan <bertchan@google.com>
