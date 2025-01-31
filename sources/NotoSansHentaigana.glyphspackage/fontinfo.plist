@@ -1,0 +1,881 @@
+{
+.appVersion = "3257";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = glyphOrder;
+value = (
+u1b001,
+u1b002,
+u1b003,
+u1b004,
+u1b005,
+u1b006,
+u1b007,
+u1b008,
+u1b009,
+u1b00a,
+u1b00b,
+u1b00c,
+u1b00d,
+u1b00e,
+u1b00f,
+u1b010,
+u1b011,
+u1b012,
+u1b013,
+u1b014,
+u1b015,
+u1b016,
+u1b017,
+u1b018,
+u1b019,
+u1b01a,
+u1b01b,
+u1b01c,
+u1b01d,
+u1b01e,
+u1b01f,
+u1b020,
+u1b021,
+u1b022,
+u1b023,
+u1b024,
+u1b025,
+u1b026,
+u1b027,
+u1b028,
+u1b029,
+u1b02a,
+u1b02b,
+u1b02c,
+u1b02d,
+u1b02e,
+u1b02f,
+u1b030,
+u1b031,
+u1b032,
+u1b033,
+u1b034,
+u1b035,
+u1b036,
+u1b037,
+u1b038,
+u1b039,
+u1b03a,
+u1b03b,
+u1b03c,
+u1b03d,
+u1b03e,
+u1b03f,
+u1b040,
+u1b041,
+u1b042,
+u1b043,
+u1b044,
+u1b045,
+u1b046,
+u1b047,
+u1b048,
+u1b049,
+u1b04a,
+u1b04b,
+u1b04c,
+u1b04d,
+u1b04e,
+u1b04f,
+u1b050,
+u1b051,
+u1b052,
+u1b053,
+u1b054,
+u1b055,
+u1b056,
+u1b057,
+u1b058,
+u1b059,
+u1b05a,
+u1b05b,
+u1b05c,
+u1b05d,
+u1b05e,
+u1b05f,
+u1b060,
+u1b061,
+u1b062,
+u1b063,
+u1b064,
+u1b065,
+u1b066,
+u1b067,
+u1b068,
+u1b069,
+u1b06a,
+u1b06b,
+u1b06c,
+u1b06d,
+u1b06e,
+u1b06f,
+u1b070,
+u1b071,
+u1b072,
+u1b073,
+u1b074,
+u1b075,
+u1b076,
+u1b077,
+u1b078,
+u1b079,
+u1b07a,
+u1b07b,
+u1b07c,
+u1b07d,
+u1b07e,
+u1b07f,
+u1b080,
+u1b081,
+u1b082,
+u1b083,
+u1b084,
+u1b085,
+u1b086,
+u1b087,
+u1b088,
+u1b089,
+u1b08a,
+u1b08b,
+u1b08c,
+u1b08d,
+u1b08e,
+u1b08f,
+u1b090,
+u1b091,
+u1b092,
+u1b093,
+u1b094,
+u1b095,
+u1b096,
+u1b097,
+u1b098,
+u1b099,
+u1b09a,
+u1b09b,
+u1b09c,
+u1b09d,
+u1b09e,
+u1b09f,
+u1b0a0,
+u1b0a1,
+u1b0a2,
+u1b0a3,
+u1b0a4,
+u1b0a5,
+u1b0a6,
+u1b0a7,
+u1b0a8,
+u1b0a9,
+u1b0aa,
+u1b0ab,
+u1b0ac,
+u1b0ad,
+u1b0ae,
+u1b0af,
+u1b0b0,
+u1b0b1,
+u1b0b2,
+u1b0b3,
+u1b0b4,
+u1b0b5,
+u1b0b6,
+u1b0b7,
+u1b0b8,
+u1b0b9,
+u1b0ba,
+u1b0bb,
+u1b0bc,
+u1b0bd,
+u1b0be,
+u1b0bf,
+u1b0c0,
+u1b0c1,
+u1b0c2,
+u1b0c3,
+u1b0c4,
+u1b0c5,
+u1b0c6,
+u1b0c7,
+u1b0c8,
+u1b0c9,
+u1b0ca,
+u1b0cb,
+u1b0cc,
+u1b0cd,
+u1b0ce,
+u1b0cf,
+u1b0d0,
+u1b0d1,
+u1b0d2,
+u1b0d3,
+u1b0d4,
+u1b0d5,
+u1b0d6,
+u1b0d7,
+u1b0d8,
+u1b0d9,
+u1b0da,
+u1b0db,
+u1b0dc,
+u1b0dd,
+u1b0de,
+u1b0df,
+u1b0e0,
+u1b0e1,
+u1b0e2,
+u1b0e3,
+u1b0e4,
+u1b0e5,
+u1b0e6,
+u1b0e7,
+u1b0e8,
+u1b0e9,
+u1b0ea,
+u1b0eb,
+u1b0ec,
+u1b0ed,
+u1b0ee,
+u1b0ef,
+u1b0f0,
+u1b0f1,
+u1b0f2,
+u1b0f3,
+u1b0f4,
+u1b0f5,
+u1b0f6,
+u1b0f7,
+u1b0f8,
+u1b0f9,
+u1b0fa,
+u1b0fb,
+u1b0fc,
+u1b0fd,
+u1b0fe,
+u1b0ff,
+u1b100,
+u1b101,
+u1b102,
+u1b103,
+u1b104,
+u1b105,
+u1b106,
+u1b107,
+u1b108,
+u1b109,
+u1b10a,
+u1b10b,
+u1b10c,
+u1b10d,
+u1b10e,
+u1b10f,
+u1b110,
+u1b111,
+u1b112,
+u1b113,
+u1b114,
+u1b115,
+u1b116,
+u1b117,
+u1b118,
+u1b119,
+u1b11a,
+u1b11b,
+u1b11c,
+u1b11d,
+u1b11e,
+u1b11f,
+u1b120,
+u1b121,
+u1b122
+);
+},
+{
+name = ROS;
+value = "Adobe-Identity-0";
+},
+{
+name = SampleFont_master_rgba;
+value = "[Noto Serif Hentaigana; Thin; 0,0,0,0.5],";
+}
+);
+date = "2022-04-03 17:04:08 +0000";
+familyName = "Noto Sans Hentaigana";
+featurePrefixes = (
+{
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+code = "lookup ccmp_hent_1 {
+	lookupflag 0;
+	sub ha-1-kana semivoicedcomb-kana by ha-1-kana_semivoicedcomb-kana;
+	sub ha-1-kana voicedcomb-kana by ha-1-kana_voicedcomb-kana;
+	sub ha-10-kana semivoicedcomb-kana by ha-10-kana_semivoicedcomb-kana;
+	sub ha-10-kana voicedcomb-kana by ha-10-kana_voicedcomb-kana;
+	sub ha-11-kana semivoicedcomb-kana by ha-11-kana_semivoicedcomb-kana;
+	sub ha-11-kana voicedcomb-kana by ha-11-kana_voicedcomb-kana;
+	sub ha-2-kana semivoicedcomb-kana by ha-2-kana_semivoicedcomb-kana;
+	sub ha-2-kana voicedcomb-kana by ha-2-kana_voicedcomb-kana;
+	sub ha-3-kana semivoicedcomb-kana by ha-3-kana_semivoicedcomb-kana;
+	sub ha-3-kana voicedcomb-kana by ha-3-kana_voicedcomb-kana;
+	sub ha-4-kana semivoicedcomb-kana by ha-4-kana_semivoicedcomb-kana;
+	sub ha-4-kana voicedcomb-kana by ha-4-kana_voicedcomb-kana;
+	sub ha-5-kana semivoicedcomb-kana by ha-5-kana_semivoicedcomb-kana;
+	sub ha-5-kana voicedcomb-kana by ha-5-kana_voicedcomb-kana;
+	sub ha-6-kana semivoicedcomb-kana by ha-6-kana_semivoicedcomb-kana;
+	sub ha-6-kana voicedcomb-kana by ha-6-kana_voicedcomb-kana;
+	sub ha-7-kana semivoicedcomb-kana by ha-7-kana_semivoicedcomb-kana;
+	sub ha-7-kana voicedcomb-kana by ha-7-kana_voicedcomb-kana;
+	sub ha-8-kana semivoicedcomb-kana by ha-8-kana_semivoicedcomb-kana;
+	sub ha-8-kana voicedcomb-kana by ha-8-kana_voicedcomb-kana;
+	sub ha-9-kana semivoicedcomb-kana by ha-9-kana_semivoicedcomb-kana;
+	sub ha-9-kana voicedcomb-kana by ha-9-kana_voicedcomb-kana;
+	sub he-1-kana semivoicedcomb-kana by he-1-kana_semivoicedcomb-kana;
+	sub he-1-kana voicedcomb-kana by he-1-kana_voicedcomb-kana;
+	sub he-2-kana semivoicedcomb-kana by he-2-kana_semivoicedcomb-kana;
+	sub he-2-kana voicedcomb-kana by he-2-kana_voicedcomb-kana;
+	sub he-3-kana semivoicedcomb-kana by he-3-kana_semivoicedcomb-kana;
+	sub he-3-kana voicedcomb-kana by he-3-kana_voicedcomb-kana;
+	sub he-4-kana semivoicedcomb-kana by he-4-kana_semivoicedcomb-kana;
+	sub he-4-kana voicedcomb-kana by he-4-kana_voicedcomb-kana;
+	sub he-5-kana semivoicedcomb-kana by he-5-kana_semivoicedcomb-kana;
+	sub he-5-kana voicedcomb-kana by he-5-kana_voicedcomb-kana;
+	sub he-6-kana semivoicedcomb-kana by he-6-kana_semivoicedcomb-kana;
+	sub he-6-kana voicedcomb-kana by he-6-kana_voicedcomb-kana;
+	sub he-7-kana semivoicedcomb-kana by he-7-kana_semivoicedcomb-kana;
+	sub he-7-kana voicedcomb-kana by he-7-kana_voicedcomb-kana;
+	sub hi-1-kana semivoicedcomb-kana by hi-1-kana_semivoicedcomb-kana;
+	sub hi-1-kana voicedcomb-kana by hi-1-kana_voicedcomb-kana;
+	sub hi-2-kana semivoicedcomb-kana by hi-2-kana_semivoicedcomb-kana;
+	sub hi-2-kana voicedcomb-kana by hi-2-kana_voicedcomb-kana;
+	sub hi-3-kana semivoicedcomb-kana by hi-3-kana_semivoicedcomb-kana;
+	sub hi-3-kana voicedcomb-kana by hi-3-kana_voicedcomb-kana;
+	sub hi-4-kana semivoicedcomb-kana by hi-4-kana_semivoicedcomb-kana;
+	sub hi-4-kana voicedcomb-kana by hi-4-kana_voicedcomb-kana;
+	sub hi-5-kana semivoicedcomb-kana by hi-5-kana_semivoicedcomb-kana;
+	sub hi-5-kana voicedcomb-kana by hi-5-kana_voicedcomb-kana;
+	sub hi-6-kana semivoicedcomb-kana by hi-6-kana_semivoicedcomb-kana;
+	sub hi-6-kana voicedcomb-kana by hi-6-kana_voicedcomb-kana;
+	sub hi-7-kana semivoicedcomb-kana by hi-7-kana_semivoicedcomb-kana;
+	sub hi-7-kana voicedcomb-kana by hi-7-kana_voicedcomb-kana;
+	sub ho-1-kana semivoicedcomb-kana by ho-1-kana_semivoicedcomb-kana;
+	sub ho-1-kana voicedcomb-kana by ho-1-kana_voicedcomb-kana;
+	sub ho-2-kana semivoicedcomb-kana by ho-2-kana_semivoicedcomb-kana;
+	sub ho-2-kana voicedcomb-kana by ho-2-kana_voicedcomb-kana;
+	sub ho-3-kana semivoicedcomb-kana by ho-3-kana_semivoicedcomb-kana;
+	sub ho-3-kana voicedcomb-kana by ho-3-kana_voicedcomb-kana;
+	sub ho-4-kana semivoicedcomb-kana by ho-4-kana_semivoicedcomb-kana;
+	sub ho-4-kana voicedcomb-kana by ho-4-kana_voicedcomb-kana;
+	sub ho-5-kana semivoicedcomb-kana by ho-5-kana_semivoicedcomb-kana;
+	sub ho-5-kana voicedcomb-kana by ho-5-kana_voicedcomb-kana;
+	sub ho-6-kana semivoicedcomb-kana by ho-6-kana_semivoicedcomb-kana;
+	sub ho-6-kana voicedcomb-kana by ho-6-kana_voicedcomb-kana;
+	sub ho-7-kana semivoicedcomb-kana by ho-7-kana_semivoicedcomb-kana;
+	sub ho-7-kana voicedcomb-kana by ho-7-kana_voicedcomb-kana;
+	sub ho-8-kana semivoicedcomb-kana by ho-8-kana_semivoicedcomb-kana;
+	sub ho-8-kana voicedcomb-kana by ho-8-kana_voicedcomb-kana;
+	sub hu-1-kana semivoicedcomb-kana by hu-1-kana_semivoicedcomb-kana;
+	sub hu-1-kana voicedcomb-kana by hu-1-kana_voicedcomb-kana;
+	sub hu-2-kana semivoicedcomb-kana by hu-2-kana_semivoicedcomb-kana;
+	sub hu-2-kana voicedcomb-kana by hu-2-kana_voicedcomb-kana;
+	sub hu-3-kana semivoicedcomb-kana by hu-3-kana_semivoicedcomb-kana;
+	sub hu-3-kana voicedcomb-kana by hu-3-kana_voicedcomb-kana;
+	sub ka-1-kana voicedcomb-kana by ka-1-kana_voicedcomb-kana;
+	sub ka-10-kana voicedcomb-kana by ka-10-kana_voicedcomb-kana;
+	sub ka-11-kana voicedcomb-kana by ka-11-kana_voicedcomb-kana;
+	sub ka-2-kana voicedcomb-kana by ka-2-kana_voicedcomb-kana;
+	sub ka-3-kana voicedcomb-kana by ka-3-kana_voicedcomb-kana;
+	sub ka-4-kana voicedcomb-kana by ka-4-kana_voicedcomb-kana;
+	sub ka-5-kana voicedcomb-kana by ka-5-kana_voicedcomb-kana;
+	sub ka-6-kana voicedcomb-kana by ka-6-kana_voicedcomb-kana;
+	sub ka-7-kana voicedcomb-kana by ka-7-kana_voicedcomb-kana;
+	sub ka-8-kana voicedcomb-kana by ka-8-kana_voicedcomb-kana;
+	sub ka-9-kana voicedcomb-kana by ka-9-kana_voicedcomb-kana;
+	sub ka-Ke-kana voicedcomb-kana by ka-Ke-kana_voicedcomb-kana;
+	sub ke-1-kana voicedcomb-kana by ke-1-kana_voicedcomb-kana;
+	sub ke-2-kana voicedcomb-kana by ke-2-kana_voicedcomb-kana;
+	sub ke-3-kana voicedcomb-kana by ke-3-kana_voicedcomb-kana;
+	sub ke-4-kana voicedcomb-kana by ke-4-kana_voicedcomb-kana;
+	sub ke-5-kana voicedcomb-kana by ke-5-kana_voicedcomb-kana;
+	sub ke-6-kana voicedcomb-kana by ke-6-kana_voicedcomb-kana;
+	sub ki-1-kana voicedcomb-kana by ki-1-kana_voicedcomb-kana;
+	sub ki-2-kana voicedcomb-kana by ki-2-kana_voicedcomb-kana;
+	sub ki-3-kana voicedcomb-kana by ki-3-kana_voicedcomb-kana;
+	sub ki-4-kana voicedcomb-kana by ki-4-kana_voicedcomb-kana;
+	sub ki-5-kana voicedcomb-kana by ki-5-kana_voicedcomb-kana;
+	sub ki-6-kana voicedcomb-kana by ki-6-kana_voicedcomb-kana;
+	sub ki-7-kana voicedcomb-kana by ki-7-kana_voicedcomb-kana;
+	sub ki-8-kana voicedcomb-kana by ki-8-kana_voicedcomb-kana;
+	sub ko-1-kana voicedcomb-kana by ko-1-kana_voicedcomb-kana;
+	sub ko-2-kana voicedcomb-kana by ko-2-kana_voicedcomb-kana;
+	sub ko-3-kana voicedcomb-kana by ko-3-kana_voicedcomb-kana;
+	sub ko-Ki-kana voicedcomb-kana by ko-Ki-kana_voicedcomb-kana;
+	sub ku-1-kana voicedcomb-kana by ku-1-kana_voicedcomb-kana;
+	sub ku-2-kana voicedcomb-kana by ku-2-kana_voicedcomb-kana;
+	sub ku-3-kana voicedcomb-kana by ku-3-kana_voicedcomb-kana;
+	sub ku-4-kana voicedcomb-kana by ku-4-kana_voicedcomb-kana;
+	sub ku-5-kana voicedcomb-kana by ku-5-kana_voicedcomb-kana;
+	sub ku-6-kana voicedcomb-kana by ku-6-kana_voicedcomb-kana;
+	sub ku-7-kana voicedcomb-kana by ku-7-kana_voicedcomb-kana;
+	sub sa-1-kana voicedcomb-kana by sa-1-kana_voicedcomb-kana;
+	sub sa-2-kana voicedcomb-kana by sa-2-kana_voicedcomb-kana;
+	sub sa-3-kana voicedcomb-kana by sa-3-kana_voicedcomb-kana;
+	sub sa-4-kana voicedcomb-kana by sa-4-kana_voicedcomb-kana;
+	sub sa-5-kana voicedcomb-kana by sa-5-kana_voicedcomb-kana;
+	sub sa-6-kana voicedcomb-kana by sa-6-kana_voicedcomb-kana;
+	sub sa-7-kana voicedcomb-kana by sa-7-kana_voicedcomb-kana;
+	sub sa-8-kana voicedcomb-kana by sa-8-kana_voicedcomb-kana;
+	sub se-1-kana voicedcomb-kana by se-1-kana_voicedcomb-kana;
+	sub se-2-kana voicedcomb-kana by se-2-kana_voicedcomb-kana;
+	sub se-3-kana voicedcomb-kana by se-3-kana_voicedcomb-kana;
+	sub se-4-kana voicedcomb-kana by se-4-kana_voicedcomb-kana;
+	sub se-5-kana voicedcomb-kana by se-5-kana_voicedcomb-kana;
+	sub si-1-kana voicedcomb-kana by si-1-kana_voicedcomb-kana;
+	sub si-2-kana voicedcomb-kana by si-2-kana_voicedcomb-kana;
+	sub si-3-kana voicedcomb-kana by si-3-kana_voicedcomb-kana;
+	sub si-4-kana voicedcomb-kana by si-4-kana_voicedcomb-kana;
+	sub si-5-kana voicedcomb-kana by si-5-kana_voicedcomb-kana;
+	sub si-6-kana voicedcomb-kana by si-6-kana_voicedcomb-kana;
+	sub so-1-kana voicedcomb-kana by so-1-kana_voicedcomb-kana;
+	sub so-2-kana voicedcomb-kana by so-2-kana_voicedcomb-kana;
+	sub so-3-kana voicedcomb-kana by so-3-kana_voicedcomb-kana;
+	sub so-4-kana voicedcomb-kana by so-4-kana_voicedcomb-kana;
+	sub so-5-kana voicedcomb-kana by so-5-kana_voicedcomb-kana;
+	sub so-6-kana voicedcomb-kana by so-6-kana_voicedcomb-kana;
+	sub so-7-kana voicedcomb-kana by so-7-kana_voicedcomb-kana;
+	sub su-1-kana voicedcomb-kana by su-1-kana_voicedcomb-kana;
+	sub su-2-kana voicedcomb-kana by su-2-kana_voicedcomb-kana;
+	sub su-3-kana voicedcomb-kana by su-3-kana_voicedcomb-kana;
+	sub su-4-kana voicedcomb-kana by su-4-kana_voicedcomb-kana;
+	sub su-5-kana voicedcomb-kana by su-5-kana_voicedcomb-kana;
+	sub su-6-kana voicedcomb-kana by su-6-kana_voicedcomb-kana;
+	sub su-7-kana voicedcomb-kana by su-7-kana_voicedcomb-kana;
+	sub su-8-kana voicedcomb-kana by su-8-kana_voicedcomb-kana;
+	sub ta-1-kana voicedcomb-kana by ta-1-kana_voicedcomb-kana;
+	sub ta-2-kana voicedcomb-kana by ta-2-kana_voicedcomb-kana;
+	sub ta-3-kana voicedcomb-kana by ta-3-kana_voicedcomb-kana;
+	sub ta-4-kana voicedcomb-kana by ta-4-kana_voicedcomb-kana;
+	sub te-1-kana voicedcomb-kana by te-1-kana_voicedcomb-kana;
+	sub te-2-kana voicedcomb-kana by te-2-kana_voicedcomb-kana;
+	sub te-3-kana voicedcomb-kana by te-3-kana_voicedcomb-kana;
+	sub te-4-kana voicedcomb-kana by te-4-kana_voicedcomb-kana;
+	sub te-5-kana voicedcomb-kana by te-5-kana_voicedcomb-kana;
+	sub te-6-kana voicedcomb-kana by te-6-kana_voicedcomb-kana;
+	sub te-7-kana voicedcomb-kana by te-7-kana_voicedcomb-kana;
+	sub te-8-kana voicedcomb-kana by te-8-kana_voicedcomb-kana;
+	sub te-9-kana voicedcomb-kana by te-9-kana_voicedcomb-kana;
+	sub ti-1-kana voicedcomb-kana by ti-1-kana_voicedcomb-kana;
+	sub ti-2-kana voicedcomb-kana by ti-2-kana_voicedcomb-kana;
+	sub ti-3-kana voicedcomb-kana by ti-3-kana_voicedcomb-kana;
+	sub ti-4-kana voicedcomb-kana by ti-4-kana_voicedcomb-kana;
+	sub ti-5-kana voicedcomb-kana by ti-5-kana_voicedcomb-kana;
+	sub ti-6-kana voicedcomb-kana by ti-6-kana_voicedcomb-kana;
+	sub ti-7-kana voicedcomb-kana by ti-7-kana_voicedcomb-kana;
+	sub to-1-kana voicedcomb-kana by to-1-kana_voicedcomb-kana;
+	sub to-2-kana voicedcomb-kana by to-2-kana_voicedcomb-kana;
+	sub to-3-kana voicedcomb-kana by to-3-kana_voicedcomb-kana;
+	sub to-4-kana voicedcomb-kana by to-4-kana_voicedcomb-kana;
+	sub to-5-kana voicedcomb-kana by to-5-kana_voicedcomb-kana;
+	sub to-6-kana voicedcomb-kana by to-6-kana_voicedcomb-kana;
+	sub to-Ra-kana voicedcomb-kana by to-Ra-kana_voicedcomb-kana;
+	sub tu-1-kana voicedcomb-kana by tu-1-kana_voicedcomb-kana;
+	sub tu-2-kana voicedcomb-kana by tu-2-kana_voicedcomb-kana;
+	sub tu-3-kana voicedcomb-kana by tu-3-kana_voicedcomb-kana;
+	sub tu-4-kana voicedcomb-kana by tu-4-kana_voicedcomb-kana;
+	sub tu-To-kana voicedcomb-kana by tu-To-kana_voicedcomb-kana;
+} ccmp_hent_1;";
+tag = ccmp;
+}
+);
+fontMaster = (
+{
+axesValues = (
+100
+);
+customParameters = (
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = "Master Icon Glyph Name";
+value = "a-3-kana";
+},
+{
+name = NPDesignArea;
+value = "90,90,90,90";
+},
+{
+name = NPDesignAreaRGBA;
+value = "0.0,0.0,0.0,0.4";
+}
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 880;
+},
+{
+over = 16;
+pos = 880;
+},
+{
+over = 16;
+pos = 880;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -120;
+},
+{
+}
+);
+name = Thin;
+userData = {
+GSRoughenHorizontal = 20;
+GSRoughenSegmentLength = 10;
+GSRoughenVertical = 20;
+NP = {
+NPMargin = {
+"7d3ac89a-6e71-4996-886d-0db4e260ad7f" = {
+margin = {
+B = 90;
+L = 90;
+R = 90;
+T = 90;
+};
+rgba = (
+0,
+0.5,
+1,
+1
+);
+title = Hentaigana;
+};
+};
+};
+};
+visible = 1;
+},
+{
+axesValues = (
+400
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "a-3-kana";
+}
+);
+id = "22BF860B-E605-42C1-AA52-30D9AB94E7CE";
+metricValues = (
+{
+over = 16;
+pos = 880;
+},
+{
+over = 16;
+pos = 880;
+},
+{
+over = 16;
+pos = 880;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -120;
+},
+{
+}
+);
+name = Regular;
+userData = {
+NP = {
+NPMargin = {
+"89b78236-da7a-4d3b-a5e1-278384908e63" = {
+margin = {
+B = 70;
+L = 70;
+R = 70;
+T = 70;
+};
+rgba = (
+0,
+0.77322,
+1,
+1
+);
+title = Hentaigana;
+};
+};
+};
+};
+visible = 1;
+},
+{
+axesValues = (
+900
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "a-3-kana";
+},
+{
+name = "CJK Grid";
+value = "8";
+}
+);
+id = "027B829E-3619-44FF-8C68-78647B0AD671";
+metricValues = (
+{
+over = 16;
+pos = 880;
+},
+{
+over = 16;
+pos = 880;
+},
+{
+over = 16;
+pos = 880;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -120;
+},
+{
+}
+);
+name = Black;
+userData = {
+NP = {
+NPMargin = {
+"1aeb3398-b7b0-412c-b3b4-4b4a6eacb13d" = {
+margin = {
+B = 50;
+L = 50;
+R = 50;
+T = 50;
+};
+rgba = (
+0,
+0.77322,
+1,
+1
+);
+title = Black;
+};
+};
+};
+};
+visible = 1;
+}
+);
+instances = (
+{
+axesValues = (
+100
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Thin;
+weightClass = 200;
+},
+{
+axesValues = (
+200
+);
+instanceInterpolations = {
+"22BF860B-E605-42C1-AA52-30D9AB94E7CE" = 0.33333;
+m01 = 0.66667;
+};
+name = Light;
+weightClass = 300;
+},
+{
+axesValues = (
+300
+);
+instanceInterpolations = {
+"22BF860B-E605-42C1-AA52-30D9AB94E7CE" = 0.66667;
+m01 = 0.33333;
+};
+name = DemiLight;
+},
+{
+axesValues = (
+400
+);
+instanceInterpolations = {
+"22BF860B-E605-42C1-AA52-30D9AB94E7CE" = 1;
+};
+name = Regular;
+weightClass = 500;
+},
+{
+axesValues = (
+500
+);
+instanceInterpolations = {
+"027B829E-3619-44FF-8C68-78647B0AD671" = 0.2;
+"22BF860B-E605-42C1-AA52-30D9AB94E7CE" = 0.8;
+};
+name = Medium;
+weightClass = 600;
+},
+{
+axesValues = (
+700
+);
+instanceInterpolations = {
+"027B829E-3619-44FF-8C68-78647B0AD671" = 0.6;
+"22BF860B-E605-42C1-AA52-30D9AB94E7CE" = 0.4;
+};
+name = Bold;
+weightClass = 700;
+},
+{
+axesValues = (
+900
+);
+instanceInterpolations = {
+"027B829E-3619-44FF-8C68-78647B0AD671" = 1;
+};
+name = Black;
+weightClass = 900;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2023 The Noto Project Authors (https://github.com/notofonts/hentaigana)";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Kazuhiro Yamada";
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = nipponia;
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://www.nipponia.in";
+},
+{
+key = trademarks;
+values = (
+{
+language = dflt;
+value = "Noto is a trademark of Google Inc.";
+}
+);
+},
+{
+key = vendorID;
+value = GOOG;
+}
+);
+unitsPerEm = 1000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+m01 = {
+OV = "50";
+};
+};
+NP = {
+links = {
+VSComponents = "<null>";
+VSSettings = "<null>";
+};
+};
+};
+versionMajor = 1;
+versionMinor = 0;
+}
