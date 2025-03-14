@@ -12,10 +12,6 @@ pos = (0,-120);
 layerId = m01;
 shapes = (
 {
-pos = (-13,0);
-ref = _ninben_001;
-},
-{
 closed = 1;
 nodes = (
 (408,725,l),
@@ -170,10 +166,6 @@ width = 1000;
 layerId = "027B829E-3619-44FF-8C68-78647B0AD671";
 shapes = (
 {
-pos = (-20,0);
-ref = _ninben_001;
-},
-{
 closed = 1;
 nodes = (
 (348,723,l),
@@ -327,11 +319,6 @@ width = 1000;
 {
 layerId = "22BF860B-E605-42C1-AA52-30D9AB94E7CE";
 shapes = (
-{
-alignment = -1;
-pos = (-16,0);
-ref = _ninben_001;
-},
 {
 closed = 1;
 nodes = (
