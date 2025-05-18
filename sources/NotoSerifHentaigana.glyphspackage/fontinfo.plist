@@ -20,6 +20,20 @@ value = (
 {
 name = glyphOrder;
 value = (
+u1aff0,
+u1aff1,
+u1aff2,
+u1aff3,
+u1aff5,
+u1aff6,
+ua1ff7,
+u1aff8,
+u1aff9,
+u1affa,
+u1affb,
+u1affd,
+u1affe,
+u1b000,
 u1b001,
 u1b002,
 u1b003,
@@ -309,7 +323,16 @@ u1b11e,
 u1b11f,
 u1b120,
 u1b121,
-u1b122
+u1b122,
+u1b132,
+u1b150,
+u1b151,
+u1b152,
+u1b155,
+u1b164,
+u1b165,
+u1b166,
+u1b167
 );
 },
 {
