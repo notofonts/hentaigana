@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 3;
+color = 10;
 glyphname = "ko-2-kana";
 layers = (
 {
